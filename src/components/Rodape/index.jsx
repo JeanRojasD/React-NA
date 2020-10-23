@@ -1,11 +1,16 @@
 import React from 'react'
+import logo from '../../assets/images/logo.png'
+import ttlogo from '../../assets/images/twitter.png'
+import ytlogo from '../../assets/images/youtube logo.png'
+import fblogo from '../../assets/images/facebook logo.png'
+
 import './index.css'
 
 function Rodape(){
     return(
     <footer>
         <div className="footer">
-            <div className="logo"><img src="../../assets/images/logo.png"></img></div>
+            <div className="logo"><img src={logo}></img></div>
             <div className="itens">
                 <h3><a>Inicio</a></h3>
                 <ul>
@@ -15,8 +20,8 @@ function Rodape(){
                 </ul>
             </div>
             <div className="about">
-                <h3>Sobre nós</h3>
-                <p>Informática NA</p>
+                <h3><a>Sobre nós</a></h3>
+                <p><a>Informática NA</a></p>
             </div>
             <div className="contact">
                 <ul>
@@ -26,9 +31,9 @@ function Rodape(){
                 </ul>
             </div>
             <div className="social">
-                <a><img src="../../assets/images/twitter logo.png"></img></a>
-                <a><img src="../../assets/images/youtube logo.png"></img></a>
-                <a><img src="../../assets/images/facebook logo.png"></img></a>
+                <a><img id="tt" src={ttlogo}></img></a>
+                <a><img id="yt" src={ytlogo}></img></a>
+                <a><img id="fb" src={fblogo}></img></a>
             </div>
         </div>
         <div className="copyright">
