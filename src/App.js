@@ -7,15 +7,11 @@ import Rodape from './components/Rodape';
 
 function App() {
   return (
-    <Menu />
-  );
-    
-function App() {
-  return (
-    <div className="App">
+    <div>
+      <Menu />
       <Rodape />
     </div>
-
+    
   );
 }
 
