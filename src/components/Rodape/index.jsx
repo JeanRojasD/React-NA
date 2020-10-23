@@ -1,8 +1,11 @@
 import React from 'react'
+import './index.css'
 
 function Rodape(){
     return(
-        <h1>Hello, World!</h1>
+        <footer className="rodape">
+            <div className="logo"></div>
+        </footer>
     );
 }
 

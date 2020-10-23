@@ -11,7 +11,6 @@ function App() {
       <Menu />
       <Rodape />
     </div>
-    
   );
 }
 
