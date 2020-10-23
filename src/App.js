@@ -1,13 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Menu from './components/Menu'
 
 function App() {
   return (
-    <div className="App">
-     <h1>Informatica Na</h1>
-     <h2>Descrição</h2>
-    </div>
+    <Menu />
   );
 }
 
