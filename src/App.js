@@ -9,14 +9,6 @@ function App() {
   return (
     <Menu />
   );
-    
-function App() {
-  return (
-    <div className="App">
-      <Rodape />
-    </div>
-
-  );
 }
 
 export default App;
