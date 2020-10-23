@@ -1,0 +1,35 @@
+body,ul,li,p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+a,p,h3,li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D2E3B;
+}
+.itens a{
+    display: flex;
+    align-items: flex-start;
+}
+.about p{
+    margin-left: 17px;
+}
+.contact a{
+    display: flex;
+    align-content: flex-start;
+}
+.copyright p{
+    line-height: 40px;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    background-color: black;
+}
