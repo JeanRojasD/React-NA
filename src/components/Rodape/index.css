@@ -1,0 +1,66 @@
+body,ul,li,p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial;
+}
+a,p,h3,li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.footer{
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2D2E3B;
+}
+.logo img{
+    width: 200px;
+}
+.itens{
+    margin-top: 30px;
+}
+.itens a{
+    display: flex;
+    align-items: flex-start;
+}
+.about{
+    margin-top: 30px;
+}
+.about p{
+    display: flex;
+    align-items: flex-start;
+}
+.contact{
+    margin-top: 30px;
+}
+.contact a{
+    display: flex;
+    align-content: flex-start;
+}
+.social{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+.social img{
+    width: 35px;
+}
+#tt{
+    width: 35px;
+}
+#yt{
+    width: 60px;
+}
+#fb{
+    width: 15px;
+}
+.copyright p{
+    line-height: 40px;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    background-color: black;
+}
