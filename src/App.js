@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
-import Home from './pages/Home';
+
+import Menu from './components/Menu';
+import Rodape from './components/Rodape';
+import Content from './pages/content';
 
 function App() {
   return (
-    <>
-      <Home />
-    </>
-  );
-}
+    <div>
+      <Menu />
+      <Content />
+      <Rodape />
+    </div>
 
 export default App;
