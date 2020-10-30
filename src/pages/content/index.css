@@ -1,0 +1,89 @@
+body,ul,li,p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial;
+}
+.slide{
+    background: #C4C4C4;
+    padding-bottom: 80px;
+    padding-top: 30px;
+;
+}
+.slideshow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wordlogo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.wordlogo p{
+    font-size: 70px;
+}
+.wordlogo img{
+    width: 100px;
+}
+.subtext p{
+    font-size: 20px;
+}
+.arrowl img{
+    padding-top: 30px;
+    width: 70px;
+}
+.text{
+    background-color: #2A5893;
+    border: 5px solid white;
+    margin-top: 30px;
+}
+.text p{
+    color: white;
+}
+.subtext p{
+    margin-left: 20px;
+}
+.date {
+    padding-left: 550px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.arrowr img{
+    padding-top: 30px;
+    width: 70px;
+}
+.points{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.points div{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    transform: rotate(45deg);
+}
+.pt1{
+    border: 2px solid white;
+    background: #4BCFEC;
+}
+.pt2{
+    background-color: white;
+}
+.pt3{
+    background-color: white;
+}
+.pt4{
+    background-color: white;
+}
+.squares{
+    display: flex;
+    justify-content: center;
+}
+.squares img{
+    margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 200px;
+}
