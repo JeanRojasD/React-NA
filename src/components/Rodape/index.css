@@ -13,6 +13,7 @@ a,p,h3,li{
     display: flex;
     justify-content: space-between;
     background-color: #C4C4C4;
+    padding-bottom: 50px;
 }
 .logo img{
     width: 165px;
@@ -39,7 +40,7 @@ a,p,h3,li{
 .contact a{
     display: flex;
     align-content: flex-start;
-    color: #676767
+    color:#676767
 }
 .social{
     display: flex;

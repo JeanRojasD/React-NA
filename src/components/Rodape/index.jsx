@@ -10,7 +10,7 @@ function Rodape(){
     return(
     <footer>
         <div className="footer">
-            <div className="logo"><img src={logo}></img></div>
+            <div className="logo"><img src={logo} alt="logo"></img></div>
             <div className="itens">
                 <h3><a>Inicio</a></h3>
                 <ul>
@@ -31,9 +31,9 @@ function Rodape(){
                 </ul>
             </div>
             <div className="social">
-                <a><img id="tt" src={ttlogo}></img></a>
-                <a><img id="yt" src={ytlogo}></img></a>
-                <a><img id="fb" src={fblogo}></img></a>
+                <a><img id="tt" src={ttlogo} alt="twitter"></img></a>
+                <a><img id="yt" src={ytlogo} alt="youtube"></img></a>
+                <a><img id="fb" src={fblogo} alt="facebook"></img></a>
             </div>
         </div>
         <div className="copyright">
