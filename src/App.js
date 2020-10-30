@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.css';
-
-import Menu from './components/Menu';
-import Rodape from './components/Rodape';
-import Content from './pages/content';
+import Home from './pages/Home'
 
 function App() {
   return (
     <div>
-      <Menu />
-      <Content />
-      <Rodape />
+      <Home />
     </div>
-
+  );
+}
 export default App;
