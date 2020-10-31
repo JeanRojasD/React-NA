@@ -1,4 +1,6 @@
 import React from 'react';
+import Menu from '../../components/Menu';
+import Rodape from '../../components/Rodape';
 import arrowl from '../../assets/images/arrowl.png';
 import arrowr from '../../assets/images/arrowr.png';
 import wordlogo from '../../assets/images/word.png';
@@ -12,14 +14,15 @@ import './index.css'
 function content(){
     return(
         <section>
+            <Menu />
             <div className="slide">
                 <div className="slideshow">
                     <div className="arrowl">
-                        <img src={arrowl}></img>
+                        <img src={arrowl} alt="arrowl"></img>
                     </div>
                     <div className="text">
                         <div className="wordlogo">
-                            <img src={wordlogo}></img>
+                            <img src={wordlogo} alt="wordlogo"></img>
                             <p>Word</p>
                         </div>
                         <div className="subtext">
@@ -29,7 +32,7 @@ function content(){
                         </div>
                     </div>
                     <div className="arrowr">
-                        <img src={arrowr}></img>
+                        <img src={arrowr} alt="arrowr"></img>
                     </div>
                 </div>
                 <div className="points">
@@ -42,19 +45,20 @@ function content(){
             <div className="content">
                 <div className="squares">
                     <div className="sqr1">
-                        <a><img src={sqrword}></img></a>
+                        <a><img src={sqrword} alt="sqrword"></img></a>
                     </div>
                     <div className="sqr2">
-                        <a><img src={sqrexcel}></img></a>
+                        <a><img src={sqrexcel} alt="sqrexcel"></img></a>
                     </div>
                     <div className="sqr3">
-                        <a><img src={sqrgd}></img></a>
+                        <a><img src={sqrgd} alt="sqrgd"></img></a>
                     </div>
                     <div className="sqr4">
-                        <a><img src={sqrpp}></img></a>
+                        <a><img src={sqrpp} alt="sqrpp"></img></a>
                     </div>
                 </div>
             </div>
+            <Rodape />
         </section>
     );
 }
