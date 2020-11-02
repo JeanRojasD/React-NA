@@ -29,9 +29,16 @@ body,ul,li,p{
 .subtext p{
     font-size: 20px;
 }
-.arrowl img{
+.arrow img{
     padding-top: 30px;
     width: 70px;
+}
+.arrow{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
 }
 .text{
     background-color: #2A5893;
@@ -48,10 +55,6 @@ body,ul,li,p{
     padding-left: 550px;
     margin-right: 20px;
     margin-bottom: 10px;
-}
-.arrowr img{
-    padding-top: 30px;
-    width: 70px;
 }
 .points{
     display: flex;
