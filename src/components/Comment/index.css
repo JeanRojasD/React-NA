@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    border: 50px;
+
+}
+.foto{
+    background-color: white;  
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 100%;
+}
+.titulo{
+    position: relative;
+    top: 20px;
+}
+.data {
+    font-size: 10px ;
+    position: relative;
+    top: 50px;
+}
+.item{
+    flex: 1;
+    margin : 5px;
+    background: #C4C4C4;
+}
+.caixa-de-comentario{
+    margin-left: 50PX;
+    margin-right: 600PX;
+    padding: 10px;
+}
