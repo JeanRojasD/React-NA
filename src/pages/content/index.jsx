@@ -11,15 +11,16 @@ import sqrword from '../../assets/images/sqrword.png';
 
 import './index.css'
 
+function Flecha(props){
+    return <button className="arrow"><img src={props.img}></img></button>
+}
 function content(){
     return(
         <section>
             <Menu />
             <div className="slide">
                 <div className="slideshow">
-                    <div className="arrowl">
-                        <img src={arrowl} alt="arrowl"></img>
-                    </div>
+                    <Flecha img={arrowl} />
                     <div className="text">
                         <div className="wordlogo">
                             <img src={wordlogo} alt="wordlogo"></img>
@@ -31,9 +32,7 @@ function content(){
                             <p className="date">12/09/20</p>
                         </div>
                     </div>
-                    <div className="arrowr">
-                        <img src={arrowr} alt="arrowr"></img>
-                    </div>
+                    <Flecha img={arrowr} />
                 </div>
                 <div className="points">
                     <div className="pt1"></div>
