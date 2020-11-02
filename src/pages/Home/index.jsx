@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import Menu from '../../components/Menu'
 import Rodape from '../../components/Rodape'
-import button from '../../components/Button'
+import Button from '../../components/Button'
 
 
 
@@ -16,8 +16,8 @@ function Home(){
                 <p>PARA TER UMA EXERIÊNCIA COM VIDEO, APOSTILAS, PODCASTS E MUITO MAIS</p>
             </div>
             <div className="clicaveis">
-                <div className="Login">{button({ text: 'Registre-se'})}</div>
-                <div className="Nocont">{button({ text: 'Login'})}</div>
+                <div className="Login"><Button text="Registre-se" /></div>
+                <div className="Nocont"><Button text="Login" /></div>
             </div>
         </div>
         <Rodape />
