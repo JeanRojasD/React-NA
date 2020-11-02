@@ -7,6 +7,10 @@
 
 .texto h2{
     font-size: 40px;
+    color: black;
+}
+.texto p{
+    color: black;
 }
 .clicaveis{
     display: flex;
@@ -17,6 +21,7 @@
 
 .clicaveis a{
     font-size: 30px;
+    color: black;
 }
 
 .Login{
