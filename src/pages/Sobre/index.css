@@ -1,0 +1,15 @@
+.slider{
+   padding-top: 5%;
+   padding-left: 3%;
+   padding-right: 3%;
+   padding-bottom: 5%;
+}
+.footer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #EAEAEA;
+}
+.name1{
+    display: flex;
+    align-items: flex-start;
+}
