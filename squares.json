@@ -1,0 +1,18 @@
+{
+    "title":"WORD",
+    "tag":"Office",
+    "content":["vídeo","handout","podcast"],
+    "plus":true
+}
+{
+    "title": "Excel",
+    "tag": "Office",
+    "content": ["vídeo","slide"],
+    "plus": false
+}
+{
+    "title": "Google Drive",
+    "tag": "Google",
+    "content": ["vídeo"],
+    "plus": false
+}
