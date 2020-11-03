@@ -1,17 +1,12 @@
-.slider{
-   padding-top: 5%;
-   padding-left: 3%;
-   padding-right: 3%;
-   padding-bottom: 5%;
-}
 .fotos{
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #adadad;
+    background-color: #EAEAEA;
 }
 
 .fotos img{
     padding-left: 100px;
+    padding-bottom: 10px;
 }
 .fotos h1{
   display: flex;
@@ -20,8 +15,3 @@
   color: black;
   
 }
-.space{
-  white-space: pre;
-  padding-bottom: 5%;
-}
-

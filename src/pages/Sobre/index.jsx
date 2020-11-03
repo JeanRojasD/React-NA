@@ -11,28 +11,22 @@ import Eloir from '../../assets/images/Eloir.png'
 
 function Sobre(){
 return(
-      <header className='fundo'>
+  <div>
         <Menu />
       <div className='slider'>
-           <Slider />
+        <Slider />
       </div>
-              <footer className="footer">
+              <section className="fotos">
                 <img id="jean" src={Jean} alt="Jean Rojas"/>
-                <ol>
-                 <li>estudante</li>
-                 <li>16 anos</li>
-                 <li>louco</li>
-                </ol>
                 <img id="gustavo" src={Gustavo} alt="Gustavo Antônio"/>
                 <img id="eduardo" src={Eduardo} alt="Eduardo Azevedo"/>
                 <img id="jao" src={Jao} alt="João Vitor"/>
                 <img id="eloir" src={Eloir} alt="João Eloir"/>
-                <a id="name2">Gustavo Antonio</a>
-              </footer>
-              <div>
-                <Rodape />
-              </div>
-      </header>
+                <h1>              Jean Rojas           Gustavo Antônio       Eduardo Azevedo          João Vitor                João Eloir</h1>
+              </section>
+              <div className='space'>                                                                      </div>
+         <Rodape />   
+    </div>      
   );
 }
 
