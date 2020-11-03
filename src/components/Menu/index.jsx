@@ -20,7 +20,7 @@ function Menu(){
                     <li>
                     {loged&&(<p>logado</p>)}
                     {!loged&&(
-                        <li><button className="login" onClick={()=>setLoged(!loged)}>Login</button></li>
+                        <li><button className="logout" onClick={()=>setLoged(!loged)}>Login</button></li>
                     )}
                     </li>
                     
