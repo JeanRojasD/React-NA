@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.css';
-import Forum from './pages/Forum'
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div>
-      <Forum/>
-    </div>
-  );
-}
+      <Home />
+  )
+};
 export default App;
