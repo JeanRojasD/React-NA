@@ -16,8 +16,8 @@ function Home(){
                 <p>PARA TER UMA EXERIÊNCIA COM VIDEO, APOSTILAS, PODCASTS E MUITO MAIS</p>
             </div>
             <div className="clicaveis">
-                <div className="Login"><Button text="Registre-se" /></div>
-                <div className="Nocont"><Button text="Login" /></div>
+                <div className="register"><Button text="Registre-se" /></div>
+                <div className="login"><Button text="Login" /></div>
             </div>
         </div>
         <Rodape />
