@@ -24,14 +24,14 @@
     color: black;
 }
 
-.Login{
+.register{
     background-color:#83CBD4;
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
 }
 
-.Nocont{
+.login{
     background-color:#83CBD4;
     margin-left: 30px;
     border: 1px solid black;
