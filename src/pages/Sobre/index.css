@@ -1,8 +1,19 @@
-.slider{
-   padding-top: 5%;
-   padding-left: 3%;
-   padding-right: 3%;
-   padding-bottom: 5%;
+.textos{
+  padding-bottom: 5%;
+  background-color:#b3b2b2 ;
+}
+.textos h1{
+display: flex;
+justify-content: center;
+padding-bottom: 4%;
+padding-top: 4%;
+}
+
+.textos p{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 24px;
 }
 .fotos{
     padding-top: 5%;
@@ -13,6 +24,7 @@
 .fotos img{
     padding-left: 100px;
 }
+
 .fotos h1{
   display: flex;
   justify-self: center;

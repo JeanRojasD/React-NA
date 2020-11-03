@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './index.css';
 import logo from '../../assets/images/logo.png';
 
+
 function Menu(){
     const [loged,setLoged]=useState(false);
     return(
@@ -19,7 +20,7 @@ function Menu(){
                     <li>
                     {loged&&(<p>logado</p>)}
                     {!loged&&(
-                        <li><button className="login" onClick={()=>setLoged(!loged)}>Login</button></li>
+                        <li><button className="logout" onClick={()=>setLoged(!loged)}>Login</button></li>
                     )}
                     </li>
                     

@@ -20,7 +20,7 @@ button{
 }
 
 .esquerda a{
-    font-family: Architects Daughter;
+    font-family: 'Architects Daughter', cursive;
 }
 
 a{
@@ -65,7 +65,7 @@ a{
     margin-left: 400px;
 }
 
-.login{
+.logout{
     background-color: #4BCFEC;
     border-radius: 5px;
     padding-right: 20px;
