@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Content from './pages/content';
+import Specific from './pages/specific';
 
 function App() {
   return (
-      <Content />
+      <Specific />
   )
 };
 
