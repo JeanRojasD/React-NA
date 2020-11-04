@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './index.css';
 import logo from '../../assets/images/logo.png';
 
+
 function Menu(){
+    const [loged,setLoged]=useState(false);
     return(
         <div className="Hope">
             <div className="esquerda">
@@ -15,7 +17,13 @@ function Menu(){
                     <li><a href="/">Forúm</a></li>
                     <li><a href="/">Conteúdos</a></li>
                     <li><a href="/">Sobre</a></li>
-                    <li><a className="login" href="/">Login</a></li>
+                    <li>
+                    {loged&&(<p>logado</p>)}
+                    {!loged&&(
+                        <li><button className="logout" onClick={()=>setLoged(!loged)}>Login</button></li>
+                    )}
+                    </li>
+                    
                 </ul>
             </nav>
         </div>

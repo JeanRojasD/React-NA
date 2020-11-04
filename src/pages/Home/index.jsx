@@ -1,6 +1,10 @@
 import React from 'react'
 import './index.css'
 import Menu from '../../components/Menu'
+import Rodape from '../../components/Rodape'
+import Button from '../../components/Button'
+
+
 
 function Home(){
     return(
@@ -12,10 +16,11 @@ function Home(){
                 <p>PARA TER UMA EXERIÊNCIA COM VIDEO, APOSTILAS, PODCASTS E MUITO MAIS</p>
             </div>
             <div className="clicaveis">
-                <div className="Login"><a href="/">Registre-se</a></div>
-                <div className="Nocont"><a href="/">Login</a></div>
+                <div className="register"><Button text="Registre-se" /></div>
+                <div className="login"><Button text="Login" /></div>
             </div>
         </div>
+        <Rodape />
         </div>
     );
 }

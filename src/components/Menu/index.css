@@ -10,8 +10,17 @@ body, ul, p{
     list-style: none;
 }
 
+button{
+    background: #ffffff;
+    border: none;
+    border-color: #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
 .esquerda a{
-    font-family: Architects Daughter;
+    font-family: 'Architects Daughter', cursive;
 }
 
 a{
@@ -56,7 +65,7 @@ a{
     margin-left: 400px;
 }
 
-.login{
+.logout{
     background-color: #4BCFEC;
     border-radius: 5px;
     padding-right: 20px;

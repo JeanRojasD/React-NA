@@ -12,28 +12,28 @@ function Rodape(){
         <div className="footer">
             <div className="logo"><img src={logo} alt="logo"></img></div>
             <div className="itens">
-                <h3><a>Inicio</a></h3>
+                <h3><a href="/">Inicio</a></h3>
                 <ul>
-                    <li><a>Conteúdo</a></li>
-                    <li><a>Fórum</a></li>
-                    <li><a>Sobre</a></li>
+                    <li><a href="/">Conteúdo</a></li>
+                    <li><a href="/">Fórum</a></li>
+                    <li><a href="/">Sobre</a></li>
                 </ul>
             </div>
             <div className="about">
-                <h3><a>Sobre nós</a></h3>
-                <p><a>Informática NA</a></p>
+                <h3>Sobre nós</h3>
+                <p>Informática NA</p>
             </div>
             <div className="contact">
                 <ul>
-                    <h3><a>Contato</a></h3>
-                    <li><a>(45) 999405679</a></li>
-                    <li><a>aulainformatica134656@gmail.com</a></li>
+                    <h3>Contato</h3>
+                    <li>(45) 999405679</li>
+                    <li>aulainformatica134656@gmail.com</li>
                 </ul>
             </div>
             <div className="social">
-                <a><img id="tt" src={ttlogo} alt="twitter"></img></a>
-                <a><img id="yt" src={ytlogo} alt="youtube"></img></a>
-                <a><img id="fb" src={fblogo} alt="facebook"></img></a>
+                <a href="/"><img id="tt" src={ttlogo} alt="twitter"></img></a>
+                <a href="/"><img id="yt" src={ytlogo} alt="youtube"></img></a>
+                <a href="/"><img id="fb" src={fblogo} alt="facebook"></img></a>
             </div>
         </div>
         <div className="copyright">

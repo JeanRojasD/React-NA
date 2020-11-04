@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Specific from './pages/specific';
+
+import Home from './pages/Home';
 
 function App() {
   return (
-      <Specific />
+      <Home />
   )
 };
-
 export default App;
