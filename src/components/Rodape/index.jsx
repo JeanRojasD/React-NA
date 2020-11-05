@@ -19,11 +19,11 @@ function Rodape(){
                     <li><a href="/">Sobre</a></li>
                 </ul>
             </div>
-            <div className="about">
+            <div className="about cinza">
                 <h3>Sobre nós</h3>
                 <p>Informática NA</p>
             </div>
-            <div className="contact">
+            <div className="contact cinza">
                 <ul>
                     <h3>Contato</h3>
                     <li>(45) 999405679</li>
