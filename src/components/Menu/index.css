@@ -8,10 +8,13 @@ body, ul, p{
     margin: 0px 0px 0px 0px;
     padding: 0px;
     list-style: none;
+    text-decoration: none;
+
 }
 
 .esquerda a{
     font-family: 'Architects Daughter', cursive;
+    color:#676767;
 }
 
 a{
