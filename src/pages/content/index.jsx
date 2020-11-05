@@ -4,10 +4,9 @@ import Rodape from '../../components/Rodape';
 import arrowl from '../../assets/images/arrowl.png';
 import arrowr from '../../assets/images/arrowr.png';
 import wordlogo from '../../assets/images/word.png';
-import sqrexcel from '../../assets/images/sqrexcel.png';
-import sqrpp from '../../assets/images/sqrpp.png';
-import sqrgd from '../../assets/images/sqrgd.png';
-import sqrword from '../../assets/images/sqrword.png';
+import excellogo from '../../assets/images/excel.png';
+import pplogo from '../../assets/images/powerpoint.png';
+import gdlogo from '../../assets/images/googledrive.png';
 
 import './index.css'
 
@@ -43,18 +42,62 @@ function content(){
             </div>
             <div className="content">
                 <div className="squares">
-                    <div className="sqr1">
-                        <a><img src={sqrword} alt="sqrword"></img></a>
-                    </div>
-                    <div className="sqr2">
-                        <a><img src={sqrexcel} alt="sqrexcel"></img></a>
-                    </div>
-                    <div className="sqr3">
-                        <a><img src={sqrgd} alt="sqrgd"></img></a>
-                    </div>
-                    <div className="sqr4">
-                        <a><img src={sqrpp} alt="sqrpp"></img></a>
-                    </div>
+                    <a className="sqr1">
+                        <div className="title">
+                            <img src={wordlogo} alt="Word"></img>
+                            <h1>Word</h1>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Vídeo</li>
+                                <li>Apostila</li>
+                                <li>Podcast</li>
+                                <li>+</li>
+                            </ul>
+                        </div>
+                    </a>
+                    <a className="sqr2">
+                        <div className="title">
+                            <img src={excellogo} alt="Excel"></img>
+                            <h1>Excel</h1>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Vídeo</li>
+                                <li>Apostila</li>
+                                <li>Podcast</li>
+                                <li>+</li>
+                            </ul>
+                        </div>
+                    </a>
+                    <a className="sqr3">
+                        <div className="title">
+                            <img src={gdlogo} alt="Google Drive"></img>
+                            <h1>Google Drive</h1>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Vídeo</li>
+                                <li>Apostila</li>
+                                <li>Podcast</li>
+                                <li>+</li>
+                            </ul>
+                        </div>
+                    </a>
+                    <a className="sqr4">
+                        <div className="title">
+                            <img src={pplogo} alt="Power Point"></img>
+                            <h1>Power Point</h1>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Vídeo</li>
+                                <li>Apostila</li>
+                                <li>Podcast</li>
+                                <li>+</li>
+                            </ul>
+                        </div>
+                    </a>
                 </div>
             </div>
             <Rodape />

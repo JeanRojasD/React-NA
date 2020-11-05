@@ -83,10 +83,54 @@ body,ul,li,p{
 .squares{
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
-.squares img{
-    margin: 50px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 200px;
+.squares a{
+    padding: 10px;
+    font-size: 20px;
+    margin: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title h1{
+    padding-right: 10px;
+}
+.sqr1{
+    background-color: #2A5893;
+}
+.sqr1 img{
+    width: 80px;
+}
+.sqr1 ul{
+    margin-left: 10px;
+}
+.sqr2{
+    background-color: #2A5893;
+}
+.sqr2 img{
+    width: 80px;
+}
+.sqr2 ul{
+    margin-left: 10px;
+}
+.sqr3{
+    background-color: #2A5893;
+}
+.sqr3 img{
+    width: 80px;
+}
+.sqr3 ul{
+    margin-left: 10px;
+}
+.sqr4{
+    background-color: #2A5893;
+}
+.sqr4 img{
+    width: 80px;
+}
+.sqr4 ul{
+    margin-left: 10px;
 }
