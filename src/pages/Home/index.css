@@ -9,34 +9,47 @@
     font-size: 40px;
     color: black;
 }
+
 .texto p{
     color: black;
 }
-.clicaveis{
+
+.conjunto{
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 30px;
 }
 
-.clicaveis a{
-    font-size: 30px;
+.clicaveis{
+    border: none;
     color: black;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+    outline: none;
 }
 
-.register{
-    background-color:#83CBD4;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
+.click{
+    background:#83CBD4;
+}
+
+.click:hover{
+    background: rgba(0,0,0,0);
+    color:#83CBD4;
+    box-shadow: inset 0 0 0 3px #83CBD4;
 }
 
 .login{
-    background-color:#83CBD4;
-    margin-left: 30px;
-    border: 1px solid black;
-    padding: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
-    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.login button{
+    padding-left: 60px;
+    padding-right: 60px;
 }
