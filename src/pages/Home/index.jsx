@@ -15,7 +15,7 @@ function Home(){
                 <h2>Não fique para trás, evolua com NA informática.</h2>
                 <p>PARA TER UMA EXERIÊNCIA COM VIDEO, APOSTILAS, PODCASTS E MUITO MAIS</p>
             </div>
-            <div className="clicaveis">
+            <div className="conjunto">
                 <div className="register"><Button text="Registre-se" /></div>
                 <div className="login"><Button text="Login" /></div>
             </div>

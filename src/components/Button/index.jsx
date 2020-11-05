@@ -2,7 +2,8 @@ import React from 'react';
 
 function Button(props){
     return( 
-        <a href="/">{props.text}</a>
+        <button type="button" className="clicaveis click">{props.text}</button>
+
     );    
 }
 

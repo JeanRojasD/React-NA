@@ -8,24 +8,17 @@ body, ul, p{
     margin: 0px 0px 0px 0px;
     padding: 0px;
     list-style: none;
-}
+    text-decoration: none;
 
-button{
-    background: #ffffff;
-    border: none;
-    border-color: #ccc;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
 }
 
 .esquerda a{
     font-family: 'Architects Daughter', cursive;
+    color:#676767;
 }
 
 a{
     text-decoration: none;
-    color: #676767;
 }
 
 .img img{
@@ -70,5 +63,6 @@ a{
     border-radius: 5px;
     padding-right: 20px;
     padding-left: 20px;
+    border: none;
+    cursor: pointer;
 }
-
