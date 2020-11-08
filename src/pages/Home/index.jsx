@@ -11,14 +11,16 @@ function Home(){
         <div className="fundo">
         <Menu />
         <div className="inicio">
-            <div className="texto">
-                <h2>Não fique para trás, evolua com NA informática.</h2>
-                <p>PARA TER UMA EXERIÊNCIA COM VIDEO, APOSTILAS, PODCASTS E MUITO MAIS</p>
-            </div>
-            <div className="clicaveis">
-                <div className="register"><Button text="Registre-se" /></div>
-                <div className="login"><Button text="Login" /></div>
-            </div>
+            <div className="animation">
+                <div className="texto">
+                    <h2>Não fique para trás, evolua com NA informática.</h2>
+                    <p>PARA TER UMA EXERIÊNCIA COM VIDEO, APOSTILAS, PODCASTS E MUITO MAIS</p>
+                </div>
+                <div className="conjunto">
+                    <div className="register"><Button text="Registre-se" /></div>
+                    <div className="login"><Button text="Login" /></div>
+                </div>
+            </div>    
         </div>
         <Rodape />
         </div>
