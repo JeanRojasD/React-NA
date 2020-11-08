@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import Home from './pages/Home';
+import Forum from './pages/Forum';
 
 function App() {
   return (
-      <Home />
+      <Forum/>
   )
 };
-    
 export default App;
