@@ -53,3 +53,15 @@
     padding-left: 60px;
     padding-right: 60px;
 }
+
+.animation{
+    position: relative;
+    animation-name: up;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+  
+@keyframes up{
+    from {top: -300px;}
+    to {top: 0px;}
+}
