@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 import logo from '../../assets/images/logo.png';
+import user from '../../assets/images/user.png';
 
 
 function Menu(){
@@ -18,9 +19,14 @@ function Menu(){
                     <li><a href="/">Conteúdos</a></li>
                     <li><a href="/">Sobre</a></li>
                     <li>
-                    {loged&&(<p>logado</p>)}
+                    {loged&&(
+                        <div className="userasset">
+                            <div className="user"><img src={user} alt="logo"></img></div>
+                            <p>Rogerio Maria</p>    
+                        </div>
+                    )}
                     {!loged&&(
-                        <li><button className="logout" onClick={()=>setLoged(!loged)}>Login</button></li>
+                        <li><button className="logout ani" onClick={()=>setLoged(!loged)}>Login</button></li>
                     )}
                     </li>
                     
