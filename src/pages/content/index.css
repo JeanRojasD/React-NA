@@ -110,6 +110,7 @@ body,ul,li,p{
     display: flex;
     padding-left: 10px;
     padding-bottom: 10px;
+    color: white;
 }
 .title2{
     display: flex; 
@@ -118,6 +119,7 @@ body,ul,li,p{
     display: flex;
     position: relative;
     bottom: 10px;
+    color: white;
 }
 .sqr1{
     background-color: #2A5893;
@@ -167,4 +169,7 @@ body,ul,li,p{
     margin-left: 10px;
     position: relative;
     bottom: 17px;
+}
+.color li{
+    color: white;
 }

@@ -48,7 +48,7 @@ function content(){
                             <h1>Word</h1>
                         </div>
                         <div>
-                            <ul>
+                            <ul className="color">
                                 <li>Vídeo</li>
                                 <li>Apostila</li>
                                 <li>Podcast</li>
@@ -62,7 +62,7 @@ function content(){
                             <h1>Excel</h1>
                         </div>
                         <div>
-                            <ul>
+                            <ul className="color">
                                 <li>Vídeo</li>
                                 <li>Apostila</li>
                                 <li>Podcast</li>
@@ -76,7 +76,7 @@ function content(){
                             <h1>Google Drive</h1>
                         </div>
                         <div>
-                            <ul>
+                            <ul className="color">
                                 <li>Vídeo</li>
                                 <li>Apostila</li>
                                 <li>Podcast</li>
@@ -90,7 +90,7 @@ function content(){
                             <h1>Power Point</h1>
                         </div>
                         <div>
-                            <ul>
+                            <ul className="color">
                                 <li>Vídeo</li>
                                 <li>Apostila</li>
                                 <li>Podcast</li>
