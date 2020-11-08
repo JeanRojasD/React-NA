@@ -7,12 +7,10 @@ import wordlogo from '../../assets/images/word.png';
 import excellogo from '../../assets/images/excel.png';
 import pplogo from '../../assets/images/powerpoint.png';
 import gdlogo from '../../assets/images/googledrive.png';
+import Flecha from '../../components/flecha/index.jsx'
 
 import './index.css'
 
-function Flecha(props){
-    return <button className="arrow"><img src={props.img}></img></button>
-}
 function content(){
     return(
         <section>

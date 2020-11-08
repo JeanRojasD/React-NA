@@ -29,27 +29,6 @@ body,ul,li,p{
 .subtext p{
     font-size: 20px;
 }
-.arrow img{
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 30px;
-    width: 70px;
-    transition: all 300ms; 
-}
-.arrow{
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline: inherit;
-}
-.arrow img:hover{
-    width: 90px;
-    padding-left: 0px;
-    padding-right: 0px;
-    transition: all 300ms;
-}
 .text{
     background-color: #2A5893;
     border: 5px solid white;
