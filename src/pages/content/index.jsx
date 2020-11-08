@@ -71,7 +71,7 @@ function content(){
                         </div>
                     </a>
                     <a className="sqr3">
-                        <div className="title">
+                        <div className="title2">
                             <img src={gdlogo} alt="Google Drive"></img>
                             <h1>Google Drive</h1>
                         </div>
@@ -85,7 +85,7 @@ function content(){
                         </div>
                     </a>
                     <a className="sqr4">
-                        <div className="title">
+                        <div className="title2">
                             <img src={pplogo} alt="Power Point"></img>
                             <h1>Power Point</h1>
                         </div>
