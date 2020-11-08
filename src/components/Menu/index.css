@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 body{
     width: 100%;
     height: 100%;
@@ -14,6 +16,7 @@ body, ul, p{
 
 .esquerda a{
     font-family: 'Architects Daughter', cursive;
+    font-size: 19px;
     color:#676767;
 }
 
@@ -58,11 +61,31 @@ a{
     margin-left: 400px;
 }
 
+.user img{
+    width: 20px;
+}
+
+.userasset{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .logout{
-    background-color: #4BCFEC;
+    font-size: 15px;
     border-radius: 5px;
     padding-right: 20px;
     padding-left: 20px;
     border: none;
     cursor: pointer;
+    outline: none;
+    transition: all 400ms ease;
+}
+
+.ani{
+    background-color: #4BCFEC;
+}
+
+.ani:hover{
+    color:white;
 }
