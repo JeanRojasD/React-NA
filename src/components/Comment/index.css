@@ -40,3 +40,6 @@
     from {left: -1000px;}
     to {left: 0px;}
   }
+  .caixa-de-comentario a{
+      color: black;
+  }
