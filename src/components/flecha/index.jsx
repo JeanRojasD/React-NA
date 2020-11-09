@@ -3,7 +3,8 @@ import './index.css'
 
 function Flecha(props) {
     return (
-        <button className="arrow"><img src={props.img}></img></button>
+        <label for={props.for}></label>
     );
-    }
+}
+
 export default Flecha;
