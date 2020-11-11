@@ -1,12 +1,8 @@
-import React from 'react';
-import './App.css';
-import Home from './pages/Home'
-import Sobre from './pages/Sobre'
-import Content from './pages/content'
+import React from 'react'
+import Routes from './routes';
 
 function App() {
-  return (
-      <Sobre />
-  )
-};
+  return <Routes />;
+}
+
 export default App;

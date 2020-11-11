@@ -2,7 +2,6 @@ import React from 'react';
 import Menu from '../../components/Menu';
 import Rodape from '../../components/Rodape';
 import Flecha from '../../components/flecha'
-
 import arrowl from '../../assets/images/arrowl.png';
 import arrowr from '../../assets/images/arrowr.png';
 import wordlogo from '../../assets/images/word.png';
