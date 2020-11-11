@@ -19,7 +19,7 @@ const textoss=[
   },
   {
     id : "texto2",
-    titulo : "Sobre Nós2",
+    titulo : "Sobre Nós",
     content : `Somos Estudantes Da Faculdade Uniamérica no Paraná, estamos cursando a faculdade de Engenharia De Software,
     Criamos essa plataforma através do nosso projeto Integrador e estamos trabalhando para levar-lo além,                
     acreditamos que muitas pessoas ainda faltam em conhecimento nessa área em específico, oque pode     
@@ -30,7 +30,6 @@ const textoss=[
 const [currenttext,setCurrenttext] = useState(textoss[1]);
 
 const toggleText=() => {
-  console.log(currenttext.id)
   const index=currenttext.id==="texto2"?0:1;
   setCurrenttext(textoss[index])
 }
@@ -46,8 +45,8 @@ return(
           <img src={arrowca} />
         </button>
       <div>
-        <h1>{currenttext.titulo}</h1>
-        <p>{currenttext.content}</p>
+        <h1 className="h1">{currenttext.titulo}</h1>
+        <p className="p">{currenttext.content}</p>
       </div>
     </div>
     <Rodapeimg />      
