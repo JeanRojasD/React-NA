@@ -9,7 +9,7 @@ function Menu(){
     return(
         <div className="Hope">
             <div className="esquerda">
-                <a className="img" href="/"><img src={logo} alt="logo"></img></a> 
+                <a className="nainfor" href="/"><img src={logo} alt="logo"></img></a> 
                 <a className="logo" href="/">Informatica NA</a>
             </div>
             <nav>

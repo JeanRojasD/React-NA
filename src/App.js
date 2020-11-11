@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import Forum from './pages/Forum';
+import Register from './pages/Register';
 
 function App() {
   return (
-      <Forum/>
+      <Register />
   )
 };
 export default App;
