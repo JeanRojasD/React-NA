@@ -6,14 +6,30 @@ import Jean from '../../assets/images/Jean.png'
 import Gustavo from '../../assets/images/Gustavo.png'
 import Eloir from '../../assets/images/Eloir.png'
 
-
+function Rodapeimg (){
+return(
 <div className="fotos">
-<img src={Jean} alt="Jean Rojas"/>
-<img src={Gustavo} alt="Gustavo Antônio"/>
-<img src={Eduardo} alt="Eduardo Azevedo"/>
-<img src={Jao} alt="João Vitor"/>
-<img src={Eloir} alt="João Eloir"/>
-<h1>              Jean Rojas           Gustavo Antonio       Eduardo Azevedo          João Vitor                João Eloir</h1>
+ <div>
+     <img src={Jean}/>
+     <ol>    Jean Rojas</ol> 
+ </div>
+ <div>
+     <img src={Gustavo}/>
+     <ol>Gustavo Antônio</ol> 
+ </div>
+ <div>
+     <img src={Eduardo}/>
+     <ol>Eduardo Azevedo</ol> 
+ </div>
+ <div>
+     <img src={Jao}/>
+     <ol>      João Vitor</ol> 
+ </div>
+ <div>
+     <img src={Eloir}/>
+     <ol>    João Eloir</ol> 
+ </div>
 </div>
-
+)
+}
  export default Rodapeimg;

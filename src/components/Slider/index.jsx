@@ -17,7 +17,7 @@ export default class Slide extends React.Component {
             },
         ]
         return (
-            <ImageGallery items={images} autoPlay={true} showThumbnails={false}/>
+            <ImageGallery items={images} autoPlay={true} showThumbnails={false} showFullscreenButton={false}/>
         );
     }
 }

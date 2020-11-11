@@ -2,19 +2,23 @@
   padding-bottom: 5%;
   background-color: #C4C4C4 ;
   margin: 3%;
+  position: relative;
 }
 .textos1 h1{
 display: flex;
 justify-content: center;
-padding-bottom: 4%;
-padding-top: 4%;
+padding-top: 2%;
+font-size: 45px;
+margin-top:15px;
 }
 
 .textos1 p{
   display: flex;
   justify-content: center;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 25px;
+  line-height: 1.5em;
+  margin-bottom: 19px;
 }
 .textos2{
     padding-bottom: 5%;
@@ -51,6 +55,3 @@ padding-top: 4%;
   white-space: pre;
   color: black;
 }
- .arrowca{
-  background-color: blue;
- }

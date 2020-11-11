@@ -1,17 +1,15 @@
 .fotos{
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color: #EAEAEA;
-}
-
-.fotos img{
-    padding-left: 100px;
-    padding-bottom: 10px;
-}
-.fotos h1{
   display: flex;
-  justify-self: center;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #EAEAEA;
+  display: flex;
+  flex-direction: row;
   white-space: pre;
-  color: black;
-  
+  padding-left: 30px;
+  font-weight: bold; 
+}
+.fotos ol{
+  padding-left: 45%;
 }
