@@ -1,15 +1,12 @@
 .container{
-  padding-bottom: 5%;
   background-color: #C4C4C4 ;
   margin: 3%;
-  position: relative;
 }
+
 .h1{
 display: flex;
 justify-content: center;
-padding-top: 2%;
 font-size: 45px;
-margin-top:15px;
 }
 
 .p{
