@@ -6,6 +6,7 @@ import './index.css'
 function Forum() {
     return (
         <section>
+            
             <Menu />
             <div className="restricoes">
                 <div className="r1">
