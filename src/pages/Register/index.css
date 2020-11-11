@@ -256,7 +256,7 @@ input, button{
     left: 0;
     top: 0;
     display: flex;
-    -webkit-box-pack:center;
+    box-pack:center;
     justify-content: center;
     align-items: center;
     width: 100%;

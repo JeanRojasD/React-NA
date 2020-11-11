@@ -19,7 +19,6 @@ function Register(){
     });
 
     return(
-        
         <div>
              <Menu />
              <section className="global">
