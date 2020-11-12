@@ -5,7 +5,6 @@ import Rodape from '../../components/Rodape'
 import Button from '../../components/Button'
 
 
-
 function Home(){
     return(
         <div className="fundo">

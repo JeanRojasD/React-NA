@@ -1,17 +1,12 @@
 import React from 'react';
 import Menu from '../../components/Menu';
 import Rodape from '../../components/Rodape';
-import Flecha from '../../components/flecha'
-import arrowl from '../../assets/images/arrowl.png';
-import arrowr from '../../assets/images/arrowr.png';
+import Flecha from '../../components/Flecha'
 import wordlogo from '../../assets/images/word.png';
-import excellogo from '../../assets/images/excel.png';
-import pplogo from '../../assets/images/powerpoint.png';
-import gdlogo from '../../assets/images/googledrive.png';
 
 import './index.css'
 
-function content() {
+function Content() {
     return (
         <div>
             <Menu />
@@ -69,4 +64,4 @@ function content() {
         </div>
     );
 }
-export default content;
+export default Content;

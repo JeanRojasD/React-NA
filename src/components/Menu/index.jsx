@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './index.css';
 import logo from '../../assets/images/logo.png';
 import user from '../../assets/images/user.png';
+import { Link } from 'react-router-dom';
+
 
 
 function Menu(){
@@ -14,10 +16,18 @@ function Menu(){
             </div>
             <nav>
                 <ul className="items">
-                    <li><a href="/">Inicio</a></li>
-                    <li><a href="/">Forúm</a></li>
-                    <li><a href="/">Conteúdos</a></li>
-                    <li><a href="/">Sobre</a></li>
+                    <Link to="/">
+                        <li>Inicio</li>
+                    </Link>
+                    <Link to="/forum">
+                        <li>Forúm</li>
+                    </Link>
+                    <Link to="/content">
+                        <li>Conteúdos</li>
+                    </Link>
+                    <Link to="/home">
+                        <li>Sobre</li>
+                    </Link>
                     <li>
                     {loged&&(
                         <div className="userasset">
