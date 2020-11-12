@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
-import Forum from './pages/Forum';
+import Botaopop from "./components/Pop-up-forum"
 
 function App() {
   return (
-      <Forum/>
+     <Botaopop />
   )
 };
 export default App;
