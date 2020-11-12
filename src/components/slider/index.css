@@ -1,0 +1,49 @@
+.Slides{
+    display: flex;
+    width: 785px;    
+    align-items: center;
+    left: 350px;
+}
+.text{
+    background-color: #2A5893;
+}
+.subtext p{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.date {
+    padding-left: 550px;
+    margin-bottom: 10px;
+}
+.wordlogo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.wordlogo p{
+    color: white;
+    font-size: 70px;
+}
+.wordlogo img{
+    width: 100px;
+}
+.slick-dots li{
+    transform: rotate(45deg);
+    position: relative;
+    top: 20px;
+    padding: 5px;
+}
+.slick-dots li button::before {
+    opacity: 1;
+    text-indent: -9999px;
+    background: #4BCFEC;
+  }
+
+.slick-dots li.slick-active button::before {
+    width: 18px;
+    height: 18px;
+    border: 2px solid white;
+    background: #4BCFEC;
+    opacity: 1;
+}
