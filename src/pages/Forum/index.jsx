@@ -2,11 +2,13 @@ import React from 'react'
 import Menu from '../../components/Menu'
 import Comment from '../../components/Comment'
 import Rodape from '../../components/Rodape'
+import SimpleSlider from '../../components/Slider-forum'
 import './index.css'
 function Forum() {
     return (
         <section>
             <Menu />
+            <SimpleSlider/>
             <div className="restricoes">
                 <div className="r1">
                 <Comment nome="João Eloir" titulo="Office" data="10/10/10 10:10" />
