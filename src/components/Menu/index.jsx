@@ -25,7 +25,7 @@ function Menu(){
                     <Link to="/content">
                         <li>Conteúdos</li>
                     </Link>
-                    <Link to="/home">
+                    <Link to="/sobre">
                         <li>Sobre</li>
                     </Link>
                     <li>
