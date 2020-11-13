@@ -1,0 +1,44 @@
+.container{
+  background-color: #C4C4C4 ;
+  margin: 3%;
+}
+
+.h1{
+display: flex;
+justify-content: center;
+font-size: 45px;
+}
+
+.p{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 1.5em;
+  margin-bottom: 19px;
+}
+
+.fotos{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background-color: #E5E5E5;
+}
+
+.fotos img{
+    padding-left: 100px;
+}
+
+.fotos h1{
+  display: flex;
+  justify-self: center;
+  white-space: pre;
+  color: black;
+}
+
+#arrowla{
+  display: flex;
+}
+#arrowca{
+  display: flex;
+  justify-content: end;
+}
