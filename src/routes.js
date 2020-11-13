@@ -1,11 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Menu from './components/Menu'
 import Home from './pages/Home';
 import Forum from './pages/Forum';
 import Sobre from './pages/Sobre';
-import Content from './pages/Content'
-import Specific from './pages/Specific'
+import Content from './pages/content'
+import Specific from './pages/specific'
 
 function Routes() {
   return (

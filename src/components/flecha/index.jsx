@@ -2,8 +2,9 @@ import React from 'react';
 import './index.css'
 
 function Flecha(props) {
+    const { onClick } = props;
     return (
-        <label for={props.for}></label>
+        <button className={"arrow"} onClick={onClick}><img src={props.src}></img></button>
     );
 }
 

@@ -15,7 +15,7 @@ function specific(){
             <Menu />
             <section className="page">
                 <div className="logo">
-                    <img src={wordlogo}></img>
+                    <img src={wordlogo} alt="wordlogo"></img>
                 </div>
                 <div className="summary">
                     <p>O Microsoft Word é um processador
@@ -28,14 +28,13 @@ function specific(){
                 </div>
             </section>
             <section className="squares">
-                <a><img src={apostila}></img></a>
-                <a><img src={slides}></img></a>
-                <a><img src={video}></img></a>
-                <a><img src={podcast}></img></a>
+                <a href="/"><img src={apostila} alt="apostila"></img></a>
+                <a href="/"><img src={slides} alt="slides"></img></a>
+                <a href="/"><img src={video} alt="video"></img></a>
+                <a href="/"><img src={podcast} alt="podcast"></img></a>
             </section>
             <Rodape />
         </section>
     );
 }
-
 export default specific;

@@ -10,23 +10,23 @@ function Rodapeimg (){
 return(
 <div className="fotos">
  <div>
-     <img src={Jean}/>
+     <img src={Jean} alt="Jean"/>
      <ol>    Jean Rojas</ol> 
  </div>
  <div>
-     <img src={Gustavo}/>
+     <img src={Gustavo} alt="Gustavo"/>
      <ol>Gustavo Antônio</ol> 
  </div>
  <div>
-     <img src={Eduardo}/>
+     <img src={Eduardo} alt="Eduardo"/>
      <ol>Eduardo Azevedo</ol> 
  </div>
  <div>
-     <img src={Jao}/>
+     <img src={Jao} alt="João Vitor"/>
      <ol>      João Vitor</ol> 
  </div>
  <div>
-     <img src={Eloir}/>
+     <img src={Eloir} alt="João Eloir"/>
      <ol>    João Eloir</ol> 
  </div>
 </div>
