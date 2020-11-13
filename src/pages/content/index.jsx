@@ -73,6 +73,7 @@ function Content() {
                         </div>
                     </a>
                 </div>
+            </div>
             <Rodape />
         </div>
     );

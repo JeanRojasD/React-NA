@@ -4,6 +4,7 @@ body,ul,li,p{
     list-style: none;
     font-family: Arial;
 }
+
 .contentbody{
     background-color: gray;
     padding-top: 30px;
@@ -37,7 +38,7 @@ body,ul,li,p{
     font-size: 30px;
     display: flex;
     padding-left: 10px;
-    position: relative;
+position: relative;
     top: 6px;
     color: white;
 }
