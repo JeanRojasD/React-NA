@@ -1,11 +1,8 @@
-import React from 'react';
-import './App.css';
-
-import Content from './pages/Content';
+import React from 'react'
+import Routes from './routes';
 
 function App() {
-  return (
-      <Content />
-  )
-};
+  return <Routes />;
+}
+
 export default App;
