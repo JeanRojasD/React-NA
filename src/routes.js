@@ -13,10 +13,11 @@ function Routes() {
       <div className="App">
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/content" exact component={Content} />
-          <Route path="/forum" exact component={Forum} />
-          <Route path="/specific" exact component={Specific} />
-          <Route path="/sobre" exact component={Sobre} />
+          <Route path="/content" component={Content} />
+          <Route path="/forum" component={Forum} />
+          <Route path="/specific" component={Specific} />
+          <Route path="/sobre" component={Sobre} />
+          <Route path="*" component={Sobre} />
         </Switch>
       </div>
     </Router>
