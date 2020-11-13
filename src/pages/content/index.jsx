@@ -1,10 +1,13 @@
 import React from 'react';
+
 import Menu from '../../components/Menu';
 import Rodape from '../../components/Rodape';
 import Flecha from '../../components/flecha'
 import wordlogo from '../../assets/images/word.png';
 import pplogo from '../../assets/images/powerpoint.png';
 import gdlogo from '../../assets/images/googledrive.png';
+
+import Slideshow from '../../components/Slider-Content';
 
 import './index.css'
 
