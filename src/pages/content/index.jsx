@@ -9,7 +9,7 @@ import gdlogo from '../../assets/images/googledrive.png';
 
 import Slideshow from '../../components/Slider-Content';
 
-function content() {
+function Content() {
     return (
         <div>
             <Menu />
@@ -80,4 +80,4 @@ function content() {
         </div>
     );
 }
-export default content;
+export default Content;
