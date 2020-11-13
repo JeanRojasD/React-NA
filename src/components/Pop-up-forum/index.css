@@ -1,0 +1,7 @@
+.adicionar{
+    position: relative;
+    right: calc(-80% + 128px);  
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
