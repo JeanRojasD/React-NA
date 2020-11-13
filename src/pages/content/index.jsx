@@ -1,23 +1,12 @@
 import React from 'react';
 import Menu from '../../components/Menu';
 import Rodape from '../../components/Rodape';
-<<<<<<< HEAD
-=======
 import Flecha from '../../components/flecha'
-
-import arrowl from '../../assets/images/arrowl.png';
-import arrowr from '../../assets/images/arrowr.png';
->>>>>>> parent of e72e965... Criação do slider
 import wordlogo from '../../assets/images/word.png';
-import excellogo from '../../assets/images/excel.png';
 import pplogo from '../../assets/images/powerpoint.png';
 import gdlogo from '../../assets/images/googledrive.png';
-<<<<<<< HEAD
-import Slideshow from '../../components/slider';
-=======
 
 import './index.css'
->>>>>>> parent of e72e965... Criação do slider
 
 function Content() {
     return (

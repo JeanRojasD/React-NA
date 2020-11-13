@@ -8,10 +8,6 @@ body,ul,li,p{
     background: #C4C4C4;
     padding-bottom: 80px;
     padding-top: 30px;
-<<<<<<< HEAD
-    margin-top: 10px;
-    padding-bottom: 60px;
-=======
 }
 .slider {
     display: block;
@@ -119,7 +115,6 @@ body,ul,li,p{
 }
 .pt4{
     background-color: white;
->>>>>>> parent of e72e965... Criação do slider
 }
 .squares{
     display: flex;
