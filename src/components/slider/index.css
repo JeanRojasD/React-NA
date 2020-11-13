@@ -1,11 +1,21 @@
 .Slides{
     display: flex;
-    width: 785px;    
+    width: 785px;
     align-items: center;
-    left: 350px;
+    left: 320px;
 }
 .text{
     background-color: #2A5893;
+}
+.text2{
+    background-color: #207245;
+}
+.text3{
+    background-color: #d14424;
+}
+.text4{
+    
+    background-color: #ffd04c;
 }
 .subtext p{
     color: white;
@@ -21,12 +31,54 @@
     align-items: center;
     margin-left: 10px;
 }
+.exlogo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.pplogo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.gdlogo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
 .wordlogo p{
+    color: white;
+    font-size: 70px;
+}
+.exlogo p{
+    color: white;
+    font-size: 70px;
+    margin-top: 10px;
+}
+.pplogo p{
+    color: white;
+    font-size: 70px;
+}
+.gdlogo p{
     color: white;
     font-size: 70px;
 }
 .wordlogo img{
     width: 100px;
+}
+.exlogo img{
+    padding-top: 10px;
+    margin-right: 10px;
+    width: 90px;
+}
+.pplogo img{
+    padding-top: 10px;
+    margin-right: 10px;
+    width: 90px;
+}
+.gdlogo img{
+    width: 80px;
 }
 .slick-dots li{
     transform: rotate(45deg);
