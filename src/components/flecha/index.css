@@ -1,12 +1,19 @@
-label {
-    display: flex;
-    height: 20px;
-    width: 20px;
-    transform: rotate(45deg);
-    border: 2px solid white;
-    background: #4BCFEC;
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    z-index: 10;
+.arrow img{
+    width: 50px;
+    transition: all 300ms; 
 }
+.arrow{
+    min-width: 60px;
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+}
+.arrow img:hover{
+    width: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: all 300ms;
+}  

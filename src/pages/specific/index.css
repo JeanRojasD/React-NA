@@ -20,11 +20,11 @@ body,ul,li,p{
     padding-left: 100px;
     padding-right: 100px;
 }
-.squares{
+.wordsquares{
     display: flex;
     justify-content: center;
 }
-.squares img{
+.wordsquares img{
     margin: 70px;
     margin-bottom: 100px;
     width: 200px;
