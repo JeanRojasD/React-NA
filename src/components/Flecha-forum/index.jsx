@@ -5,7 +5,7 @@ function Flash(props){
 const { onClick } = props;
 return(
     <button className="botao" onClick={onClick}> 
-        <img src={props.src}/>
+        <img src={props.src} alt="error"/>
     </button>
 )
 }

@@ -24,22 +24,22 @@ export default function SimpleSlider() {
     <Slider {...settings}>
         <div className="comp1">
             <button className="img1">
-              <img className="a" src={imgem1}/>
+              <img className="a" src={imgem1} alt="flecha"/>
             </button>
         </div>
         <div className="comp2">
         <button className="img2">
-              <img className="b" src={imgem1}/>
+              <img className="b" src={imgem1} alt="flecha"/>
             </button>
         </div>
         <div className="comp3">
         <button className="img3">
-              <img className="c" src={imgem1}/>
+              <img className="c" src={imgem1} alt="flecha" />
             </button>
         </div>
         <div className="comp4">
         <button className="img4">
-              <img className="d" src={imgem1}/>
+              <img className="d" src={imgem1} alt="post"/>
             </button>
         </div>
     </Slider>

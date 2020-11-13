@@ -1,7 +1,19 @@
 .adicionar{
     position: relative;
-    right: calc(-80% + 128px);  
+    left: 75%;
     border: none;
     cursor: pointer;
     padding: 0;
+}
+.popall{
+    position: relative;
+    bottom: 50px;
+    left: 30px ;
+}
+.crar{
+    position: relative;
+    left: 300px;
+    bottom: 30px;
+    border: none;
+    cursor: pointer;
 }
