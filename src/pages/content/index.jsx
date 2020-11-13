@@ -2,11 +2,10 @@ import React from 'react';
 import Menu from '../../components/Menu';
 import Rodape from '../../components/Rodape';
 import wordlogo from '../../assets/images/word.png';
+import exlogo from '../../assets/images/excel.png'
 import pplogo from '../../assets/images/powerpoint.png';
 import gdlogo from '../../assets/images/googledrive.png';
-import exlogo from '../../assets/images/excel.png'
 import Slideshow from '../../components/Slider-Content';
-
 import './index.css'
 
 function Content() {
@@ -16,7 +15,6 @@ function Content() {
             <div className="contentbody">
                 <Slideshow />
             </div>
-            <div className="content">
                 <div className="squares">
                     <a href="/" className="sqr1">
                         <div className="title">

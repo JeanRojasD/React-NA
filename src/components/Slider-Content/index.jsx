@@ -43,7 +43,7 @@ class Slideshow extends Component{
                     </div>
                     <div className="subtext">
                         <p>Vídeo Iniciante 4 -</p>
-                        <p>Edição de cabeçalho e rodápe, alteração no estilo do título.</p>
+                        <p>Edição de cabeçalho e rodápe com alteração de estilos.</p>
                         <p className="date">30/11/20</p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ class Slideshow extends Component{
                     </div>
                     <div className="subtext">
                         <p>Apostila Google Drive -</p>
-                        <p>Adicionada apostila completa Google Drive</p>
+                        <p>Adicionada apostila completa do Google Drive</p>
                         <p className="date">30/12/20</p>
                     </div>
                 </div>

@@ -1,8 +1,7 @@
 .Slides{
     display: flex;
     width: 785px;
-    align-items: center;
-    left: 320px;
+    left: 316px;
 }
 .text{
     background-color: #2A5893;
@@ -14,7 +13,6 @@
     background-color: #d14424;
 }
 .text4{
-    
     background-color: #ffd04c;
 }
 .subtext p{
@@ -45,7 +43,7 @@
     display: flex;
     align-items: center;
     margin-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .wordlogo p{
     color: white;
@@ -63,6 +61,7 @@
 .gdlogo p{
     color: white;
     font-size: 70px;
+    margin-top: 10px;
 }
 .wordlogo img{
     width: 100px;
@@ -79,6 +78,7 @@
 }
 .gdlogo img{
     width: 80px;
+    margin-top: 10px;
 }
 .slick-dots li{
     transform: rotate(45deg);

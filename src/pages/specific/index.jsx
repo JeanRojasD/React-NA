@@ -27,7 +27,7 @@ function specific(){
                     Faz parte do conjunto de aplicativos Microsoft Office.</p>
                 </div>
             </section>
-            <section className="squares">
+            <section className="wordsquares">
                 <a href="/"><img src={apostila} alt="apostila"></img></a>
                 <a href="/"><img src={slides} alt="slides"></img></a>
                 <a href="/"><img src={video} alt="video"></img></a>
