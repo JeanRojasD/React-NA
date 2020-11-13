@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import Register from './pages/Register';
+import Content from './pages/Content';
 
 function App() {
   return (
-      <Register />
+      <Content />
   )
 };
 export default App;

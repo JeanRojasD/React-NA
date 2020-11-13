@@ -13,7 +13,7 @@ import './index.css'
 function Flecha(props){
     return <button className="arrow"><img src={props.img}></img></button>
 }
-function content(){
+function Content(){
     return(
         <section>
             <Menu />
@@ -104,4 +104,4 @@ function content(){
         </section>
     );
 }
-export default content;
+export default Content;
