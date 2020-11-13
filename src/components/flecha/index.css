@@ -1,0 +1,12 @@
+label {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    transform: rotate(45deg);
+    border: 2px solid white;
+    background: #4BCFEC;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}

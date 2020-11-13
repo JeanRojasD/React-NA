@@ -8,12 +8,47 @@ body,ul,li,p{
     background: #C4C4C4;
     padding-bottom: 80px;
     padding-top: 30px;
-;
 }
-.slideshow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.slider {
+    display: block;
+    height: 210px;
+    width: 660px;
+    margin: auto;
+    position: relative;
+}
+.slider li {
+    position: absolute;
+}
+.slider .text {
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    opacity: 0;
+    visibility: hidden;
+    transition: all;
+    background-size: cover;
+}
+.slider li input:checked ~ .text {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+    transition: all 0.5s;
+} 
+.slider input {
+    display: none;
+}
+.slider li:nth-child(1) label {
+    right: 330px;
+    top: 250px;
+}
+.slider li:nth-child(2) label {
+    right: 370px;
+    top: 250px;
+
+}
+.slider li:nth-child(3) label {
+    right: 290px;
+    top: 250px;
 }
 .wordlogo{
     display: flex;
@@ -23,32 +58,23 @@ body,ul,li,p{
 .wordlogo p{
     font-size: 70px;
 }
+.exlogo p{
+    font-size: 70px;
+}
+.pplogo p{
+    font-size: 70px;
+}
 .wordlogo img{
+    width: 100px;
+}
+.exlogo img{
+    width: 80px;
+}
+.pplogo img{
     width: 100px;
 }
 .subtext p{
     font-size: 20px;
-}
-.arrow img{
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 30px;
-    width: 70px;
-    transition: all 300ms; 
-}
-.arrow{
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline: inherit;
-}
-.arrow img:hover{
-    width: 90px;
-    padding-left: 0px;
-    padding-right: 0px;
-    transition: all 300ms;
 }
 .text{
     background-color: #2A5893;
@@ -107,9 +133,11 @@ body,ul,li,p{
     display: flex;
 }
 .title h1{
+    font-size: 30px;
     display: flex;
     padding-left: 10px;
-    padding-bottom: 10px;
+    position: relative;
+    top: 6px;
     color: white;
 }
 .title2{
@@ -119,13 +147,16 @@ body,ul,li,p{
     display: flex;
     position: relative;
     bottom: 10px;
+    font-size: 30px;
     color: white;
 }
 .sqr1{
     background-color: #2A5893;
 }
 .sqr1 img{
+    margin-top: 2px;
     width: 80px;
+    height: 80px;
 }
 .sqr1 ul{
     margin-left: 10px;
@@ -136,7 +167,8 @@ body,ul,li,p{
 }
 .sqr2 img{
     width: 70px;
-    padding: 10px;
+    height: 70px;
+    padding-top: 7px;
 
 }
 .sqr2 ul{
@@ -161,15 +193,13 @@ body,ul,li,p{
     background-color: #d14424;
 }
 .sqr4 img{
-    width: 100px;
-    height: 80px;
-    padding-top: 5px;
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
 }
 .sqr4 ul{
     margin-left: 10px;
     position: relative;
     bottom: 17px;
 }
-.color li{
-    color: white;
-}
+

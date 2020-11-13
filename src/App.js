@@ -1,11 +1,8 @@
-import React from 'react';
-import './App.css';
-
-import Register from './pages/Register';
+import React from 'react'
+import Routes from './routes';
 
 function App() {
-  return (
-      <Register />
-  )
-};
+  return <Routes />;
+}
+
 export default App;
