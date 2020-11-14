@@ -4,6 +4,7 @@ import twitter from '../../assets/images/twitter2.png'
 import facebook from '../../assets/images/facebook.png'
 import instagram from '../../assets/images/instagram.png'
 import linkedin from '../../assets/images/linkedin.png'
+import { Link } from 'react-router-dom'
 import './index.css'
 
 function Register(){
@@ -33,7 +34,7 @@ function Register(){
                             <span>Senha</span>
                             <input type="password" name="password" />
                         </label>
-                        <button className="submit" type="button">Login</button>
+                        <Link to="/"><button className="submit" type="button">Login</button></Link>
                         <p className="forgot-pass">Esqueceu sua senha?</p>
                         <div className="social-media">
                             <ul>
@@ -77,7 +78,7 @@ function Register(){
                                 <span>Confirmar Senha</span>
                                 <input type="password" />
                             </label>
-                            <button type="button" className="submit">Registro</button>
+                            <Link to="/"><button type="button" className="submit">Registro</button></Link>
                         </div>
                     </div>
                 </div>              
