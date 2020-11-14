@@ -10,7 +10,7 @@ import "./index.css";
 
 
 export default function SimpleSlider() {
-  var settings = {
+  var settingss = {
     className:"sumemomemo",
     dots: true,
     infinite: true,
@@ -21,7 +21,7 @@ export default function SimpleSlider() {
     prevArrow:<Flash src={arrow1}/>,
   };
   return (
-    <Slider {...settings}>
+    <Slider {...settingss}>
         <div className="comp1">
             <button className="img1">
               <img className="a" src={imgem1} alt="flecha"/>

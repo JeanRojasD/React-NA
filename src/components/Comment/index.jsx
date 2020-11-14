@@ -1,9 +1,10 @@
 import React from 'react'
 import './index.css'
+import {Link} from 'react-router-dom'
 function Post(props) {
     return (
         <div className="caixa-de-comentario item">
-            <a href="/">
+            <Link to="/forumposts">
             <div className="call">
                 <div className="foto">
                 </div>
@@ -17,7 +18,7 @@ function Post(props) {
                     <li className="data">{props.data}</li>
                 </div>
             </div>
-            </a>
+            </Link>
         </div>
     )
 }
