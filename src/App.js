@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css';
-import Forum from './pages/Forum';
-
+import Forumpag2 from './pages/Forum-page2';
 function App() {
   return (
-     <Forum />
+    <Forumpag2/>
   )
 };
 export default App;
