@@ -13,8 +13,10 @@ function Content() {
     return (
         <div>
             <Menu />
-            <div className="contentbody">
-                <Slideshow />
+            <div className="123">
+                <div className="contentbody">
+                    <Slideshow />
+                </div>
             </div>
             <div className="squares">
                 <a href="/" className="sqr1">
