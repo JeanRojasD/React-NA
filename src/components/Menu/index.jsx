@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './index.css';
 import logo from '../../assets/images/logo.png';
-import user from '../../assets/images/user.png';
 import { Link } from 'react-router-dom';
 
 
 
 function Menu(){
-    const [loged,setLoged]=useState(false);
+
     return(
         <div className="Hope">
             <div className="esquerda">
@@ -17,29 +16,20 @@ function Menu(){
             <nav>
                 <ul className="items">
                     <Link to="/">
-                        <li>Inicio</li>
+                        <li className="menustyle">Inicio</li>
                     </Link>
                     <Link to="/forum">
-                        <li>Forúm</li>
+                        <li className="menustyle">Forúm</li>
                     </Link>
-                    <Link to="/content">
-                        <li>Conteúdos</li>
+                    <Link to="/conteudos">
+                        <li className="menustyle">Conteúdos</li>
                     </Link>
                     <Link to="/sobre">
-                        <li>Sobre</li>
+                        <li className="menustyle">Sobre</li>
                     </Link>
-                    <li>
-                    {loged&&(
-                        <div className="userasset">
-                            <div className="user"><img src={user} alt="logo"></img></div>
-                            <p>Rogerio Maria</p>    
-                        </div>
-                    )}
-                    {!loged&&(
-                        <li><button className="logout ani" onClick={()=>setLoged(!loged)}>Login</button></li>
-                    )}
-                    </li>
-                    
+                    <Link to="/registro">
+                        <li className="menustyle"><button className="logout ani">Login</button></li>
+                    </Link>
                 </ul>
             </nav>
         </div>

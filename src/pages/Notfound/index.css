@@ -1,0 +1,33 @@
+.notfound-page{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#EAEAEA;
+}
+
+.notfound-text{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notfound-text h1{
+    color: rgb(0, 189, 246);
+    font-size: 50px;
+}
+
+.notfound-text h2{
+    font-size: 35px;
+}
+
+.notfound-text p{
+    font-weight: bold;
+}
+.notfound-image{
+    width: 400px;
+}
