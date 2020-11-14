@@ -1,0 +1,38 @@
+.adicionarrr{
+    position: relative;
+    left: 350px;
+    top: 15px;
+    border: none;
+    margin: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+.popallll{
+    position: relative;
+    bottom: 50px;
+    left: 30px ;
+}
+.addd{
+    position: relative;
+    top: 20px;
+    right: 15px;
+}
+.cmtt{
+    border: none;
+    margin: none;
+    position: relative;
+    background: none;
+    top: 30px;
+    left: 1620px;
+    cursor: pointer;
+}
+.anxx{
+    border: none;
+    margin: none;
+    position: relative;
+    background: none;
+    top: 25px;
+    left: 1420px;
+    cursor: pointer; 
+}

@@ -4,7 +4,7 @@ function Post(props) {
     return (
         <div className="caixa-de-comentario item">
             <a href="/">
-            <div className="container">
+            <div className="call">
                 <div className="foto">
                 </div>
                 <div className="item">

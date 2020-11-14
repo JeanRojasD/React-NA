@@ -1,0 +1,34 @@
+.modalll{
+    position: relative;
+    bottom: 100px;
+    background: none;
+    left: 0;
+    z-index: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dentrooo{
+    background-color: white;
+    color: black;
+    width: 1800px;
+    height: 200px;
+    border: solid 3px black;
+    background: #C4C4C4;
+    position: relative;
+    top: 120px;
+}
+.closeee{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 32px;
+    height: 32px;
+    right: calc(-100% + 64px);  
+    top: 16px;  
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+    z-index: 45;
+}
