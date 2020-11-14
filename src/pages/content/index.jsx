@@ -6,6 +6,7 @@ import exlogo from '../../assets/images/excel.png'
 import pplogo from '../../assets/images/powerpoint.png';
 import gdlogo from '../../assets/images/googledrive.png';
 import Slideshow from '../../components/Slider-Content';
+import { Link } from 'react-router-dom';
 import './index.css'
 
 function Content() {
@@ -17,6 +18,7 @@ function Content() {
             </div>
             <div className="squares">
                 <a href="/" className="sqr1">
+                    <Link to="/specific">
                     <div className="title">
                         <img src={wordlogo} alt="Word"></img>
                         <h1>Word</h1>
@@ -29,6 +31,7 @@ function Content() {
                             <li>+</li>
                         </ul>
                     </div>
+                    </Link>
                 </a>
                 <a href="/" className="sqr2">
                     <div className="title">
