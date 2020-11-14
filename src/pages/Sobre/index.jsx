@@ -38,16 +38,16 @@ return(
   <div>
     <Menu />
     <div className="container">
-        <button onClick={toggleText} id="arrowla">
+    <button onClick={toggleText} id="arrowla">
           <img src={arrowla} alt="arrowla"/>
-        </button>
-        <button onClick={toggleText} id="arrowca">
-          <img src={arrowca} alt="arrowca"/>
         </button>
       <div>
         <h1 className="h1">{currenttext.titulo}</h1>
         <p className="p">{currenttext.content}</p>
       </div>
+      <button onClick={toggleText} id="arrowca">
+          <img src={arrowca} alt="arrowca"/>
+        </button>
     </div>
     <Rodapeimg />      
     <Rodape />
