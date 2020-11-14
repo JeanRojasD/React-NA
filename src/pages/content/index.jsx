@@ -18,7 +18,7 @@ function Content() {
             </div>
             <div className="squares">
                 <a href="/" className="sqr1">
-                    <Link to="/specific">
+                    <Link to="/especificos">
                     <div className="title">
                         <img src={wordlogo} alt="Word"></img>
                         <h1>Word</h1>

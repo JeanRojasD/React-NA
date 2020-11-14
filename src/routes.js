@@ -17,7 +17,7 @@ function Routes() {
           <Route path="/" exact component={Home} />
           <Route path="/conteudos" component={Content} />
           <Route path="/forum" component={Forum} />
-          <Route path="/conteudos/especificos" component={Specific} />
+          <Route path="/especificos" component={Specific} />
           <Route path="/sobre" component={Sobre} />
           <Route path="/registro" component={Register} />
           <Route path="/forumposts" component={Forumpage2} />
