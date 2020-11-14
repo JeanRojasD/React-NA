@@ -4,7 +4,7 @@ import './index.css'
 function Flecha(props) {
     const { onClick } = props;
     return (
-        <button className={"arrow"} onClick={onClick}><img src={props.src}></img></button>
+        <button className={"arrow"} onClick={onClick}><img src={props.src} alt="seta"></img></button>
     );
 }
 

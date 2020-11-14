@@ -3,8 +3,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Forum from './pages/Forum';
 import Sobre from './pages/Sobre';
-import Content from './pages/Content'
-import Specific from './pages/Specific'
+import Content from './pages/Content';
+import Specific from './pages/Specific';
+import Register from './pages/Register';
+import Notfound from './pages/Notfound';
+import Forumpage2 from './pages/Forum-page2';
 
 function Routes() {
   return (
@@ -12,11 +15,14 @@ function Routes() {
       <div className="App">
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/content" component={Content} />
+          <Route path="/conteudos" component={Content} />
           <Route path="/forum" component={Forum} />
-          <Route path="/specific" component={Specific} />
+          <Route path="/conteudos/especificos" component={Specific} />
           <Route path="/sobre" component={Sobre} />
-          <Route path="*" component={Sobre} />
+          <Route path="/registro" component={Register} />
+          <Route path="/forumposts" component={Forumpage2} />
+          <Route path="*" component={Notfound} />
+          
         </Switch>
       </div>
     </Router>

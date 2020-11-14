@@ -1,13 +1,8 @@
 .fotos{
   display: flex;
-  position: relative;
-  padding-top: 5%;
-  padding-bottom: 5%;
   background-color: #EAEAEA;
-  display: flex;
   flex-direction: row;
   white-space: pre;
-  padding-left: 30px;
   font-weight: bold; 
 }
 .fotos ol{

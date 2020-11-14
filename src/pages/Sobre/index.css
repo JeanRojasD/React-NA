@@ -1,31 +1,39 @@
 .container{
   background-color: #C4C4C4 ;
-  margin: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 150px;
+  justify-content: space-between;
+  margin-top: 150px;
+  position: relative;
 }
 
 .h1{
-display: flex;
-justify-content: center;
+text-align: center;
 font-size: 45px;
+padding-bottom: 20px;
 }
 
 .p{
-  display: flex;
-  justify-content: center;
+  text-align: center;
   text-decoration: none;
   font-size: 25px;
   line-height: 1.5em;
-  margin-bottom: 19px;
+  margin: 10px;
 }
 
 .fotos{
-    padding-top: 3%;
-    padding-bottom: 1%;
-    background-color: #E5E5E5;
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .fotos img{
-    padding-left: 100px;
+  margin-left: 100px;
 }
 
 .fotos h1{
@@ -36,9 +44,11 @@ font-size: 45px;
 }
 
 #arrowla{
-  display: flex;
+  position: relative;
+  right: 140px;
 }
+
 #arrowca{
-  display: flex;
-  justify-content: end;
+  position: relative;
+  left: 140px;
 }
