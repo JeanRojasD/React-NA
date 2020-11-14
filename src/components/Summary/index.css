@@ -1,0 +1,17 @@
+.page{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 260px;
+    max-width: 880px;
+    max-height: 350px;
+    margin-top: 30px;
+    background-color:  #2A5893;
+}
+.page img{
+    width: 300px;
+}
+.page p{
+    font-size: 25px;
+    color: white;
+}

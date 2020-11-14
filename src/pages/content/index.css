@@ -38,7 +38,7 @@ body,ul,li,p{
     font-size: 30px;
     display: flex;
     padding-left: 10px;
-position: relative;
+    position: relative;
     top: 6px;
     color: white;
 }
@@ -61,6 +61,8 @@ position: relative;
 }
 .sqr1 img{
     width: 80px;
+    position: relative;
+    bottom: 15px;
 }
 .sqr1 ul{
     margin-top: 28px;

@@ -1,0 +1,11 @@
+.specsqrs{
+    display: flex;
+    justify-content: center;
+    padding-left: 190px;
+    color: white;
+}
+.specsqrs img{
+    margin: 70px;
+    margin-bottom: 100px;
+    width: 200px;
+}

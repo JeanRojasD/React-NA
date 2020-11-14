@@ -1,0 +1,13 @@
+.lines{
+    padding-left: 195px;
+    margin-bottom: 60px;
+}
+.lines li{
+    color: black;
+    width: 1000px;
+    font-size: 20px;
+    background-color: #C4C4C4;
+    border: 2px solid white;
+    padding: 20px;
+
+}
