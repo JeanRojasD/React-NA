@@ -1,9 +1,8 @@
-import React from 'react';
-import './App.css';
-import Forum from './pages/Forum';
+
+import React from 'react'
+import Routes from './routes';
+
 function App() {
-  return (
-    <Forum/>
-  )
-};
+  return <Routes />;
+}
 export default App;

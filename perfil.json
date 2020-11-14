@@ -1,0 +1,15 @@
+    {
+      "foto" : "www.usuario.com/1.png",
+      "email" : "vitorjoao@gmail.com",
+      "nome" : "João Vitor",
+      "senha" : "123456",
+      "telefone": "992126622",
+      "endereço": {
+          "rua": "Rua dos girassóis",
+          "bairro": "Jardim das flores",
+          "numero": "0000",
+          "complemento": "Casa roxa"
+      }
+    }
+
+ 

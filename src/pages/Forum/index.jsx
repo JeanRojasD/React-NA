@@ -9,6 +9,7 @@ import Botaopop from '../../components/Pop-up-forum'
 function Forum() {
     return (
         <section>
+            
             <Menu />
             <SimpleSlider/>
             <Botaopop />

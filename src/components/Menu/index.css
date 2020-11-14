@@ -24,7 +24,7 @@ a{
     text-decoration: none;
 }
 
-.img img{
+.nainfor img{
     width: 64px;
 }
 
@@ -47,14 +47,16 @@ a{
     display: flex;
     padding: 20px;
     margin-right: 300px;
+    color: black;
 }
 
 .items li{
     margin-left: 20px;
+    display: inline-block;
 }
 
-.items li a{
-    color:#676767;
+.menustyle{
+    color: black;
 }
 
 .esquerda img {

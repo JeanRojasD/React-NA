@@ -1,35 +1,35 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './index.css';
 import logo from '../../assets/images/logo.png';
-import user from '../../assets/images/user.png';
+import { Link } from 'react-router-dom';
+
 
 
 function Menu(){
-    const [loged,setLoged]=useState(false);
+
     return(
         <div className="Hope">
             <div className="esquerda">
-                <a className="img" href="/"><img src={logo} alt="logo"></img></a> 
+                <a className="nainfor" href="/"><img src={logo} alt="logo"></img></a> 
                 <a className="logo" href="/">Informatica NA</a>
             </div>
             <nav>
                 <ul className="items">
-                    <li><a href="/">Inicio</a></li>
-                    <li><a href="/">Forúm</a></li>
-                    <li><a href="/">Conteúdos</a></li>
-                    <li><a href="/">Sobre</a></li>
-                    <li>
-                    {loged&&(
-                        <div className="userasset">
-                            <div className="user"><img src={user} alt="logo"></img></div>
-                            <p>Rogerio Maria</p>    
-                        </div>
-                    )}
-                    {!loged&&(
-                        <li><button className="logout ani" onClick={()=>setLoged(!loged)}>Login</button></li>
-                    )}
-                    </li>
-                    
+                    <Link to="/">
+                        <li className="menustyle">Inicio</li>
+                    </Link>
+                    <Link to="/forum">
+                        <li className="menustyle">Forúm</li>
+                    </Link>
+                    <Link to="/conteudos">
+                        <li className="menustyle">Conteúdos</li>
+                    </Link>
+                    <Link to="/sobre">
+                        <li className="menustyle">Sobre</li>
+                    </Link>
+                    <Link to="/registro">
+                        <li className="menustyle"><button className="logout ani">Login</button></li>
+                    </Link>
                 </ul>
             </nav>
         </div>
