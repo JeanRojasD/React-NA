@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Forum from './pages/Forum';
 import Sobre from './pages/Sobre';
-import Content from './pages/Content'
-import Specific from './pages/Specific'
+import Content from './pages/Content';
+import Specific from './pages/Specific';
 
 function Routes() {
   return (
