@@ -6,9 +6,8 @@ body,ul,li,p{
 }
 
 .contentbody{
-    background-color: gray;
-    padding-top: 30px;
-    margin-top: 10px;
-    padding-bottom: 60px;
-    padding-top: 40px;
+    background-color: #EAEAEA;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
 }
