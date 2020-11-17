@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css'
 
-function Spec_sqrs(props){
+function Sqr_specifics(props){
     return(
-        <div className="specsqrs">
+        <div className="sqrspecific">
                 <a><img src={props.src}></img></a>
                 <a><img src={props.src2}></img></a>
                 <a><img src={props.src3}></img></a>
         </div>
     );
 }
-export default Spec_sqrs;
+export default Sqr_specifics;
