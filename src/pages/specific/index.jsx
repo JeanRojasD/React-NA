@@ -3,7 +3,7 @@ import Menu from '../../components/Menu';
 import Rodape from '../../components/Rodape';
 import Displayer from '../../components/Displayer';
 import Summary from '../../components/Summary';
-import Spec_sqrs from '../../components/Spec_sqrs';
+import Sqr_specifics from '../../components/Sqr_specifics';
 import wordlogo from '../../assets/images/word.png';
 import apostila from '../../assets/images/apostila.png';
 import slides from '../../assets/images/slides.png';
@@ -23,7 +23,7 @@ function Specific(){
                     Mais tarde foram criadas versões para o
                     Apple Macintosh, SCO UNIX e Microsoft Windows.
                     Faz parte do conjunto de aplicativos Microsoft Office."/>
-            <button className="display_btn" onClick={() => setOpen(!open)}><Spec_sqrs src={slides} src2={video} src3={apostila} ></Spec_sqrs></button>
+            <button className="display_btn" onClick={() => setOpen(!open)}><Sqr_specifics src={slides} src2={video} src3={apostila} ></Sqr_specifics></button>
             {open && (
                 <Displayer></Displayer>
             )}

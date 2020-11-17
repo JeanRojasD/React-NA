@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css'
 
-function Spec_sqrs(props){
+function Sqr_specifics(props){
     return(
         <div className="squaresalign">
             <div className="specsqrs">
@@ -12,4 +12,4 @@ function Spec_sqrs(props){
         </div>
     );
 }
-export default Spec_sqrs;
+export default Sqr_specifics;
