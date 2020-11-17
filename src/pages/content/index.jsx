@@ -11,8 +11,8 @@ function Content() {
             <Menu />
             <div className="contentbody">
                 <Slideshow />
-                <Sqr_content />
             </div>
+            <Sqr_content />
             <Rodape />
         </div>
     );

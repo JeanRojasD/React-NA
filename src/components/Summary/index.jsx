@@ -4,7 +4,7 @@ import './index.css'
 function Summary(props){
     return(
         <div className="summary-center">
-            <div className="page">
+            <div style={props.style} className="page">
                 <div className="sumlogo">
                     <img src={props.src} alt="logo"></img>
                 </div>
