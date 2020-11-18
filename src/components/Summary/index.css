@@ -2,15 +2,14 @@
     display: flex;
     justify-content: center;
     background-color: #EAEAEA;
+    padding: 200px;
 }
 .page{
+    background-color:#2A5893 ;
+    width: 50%;
     display: flex;
     align-items: center;
-    position: relative;
-    max-width: 880px;
-    max-height: 350px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    box-sizing: border-box;
     box-shadow: 1px 2px 1px black;
 
 }

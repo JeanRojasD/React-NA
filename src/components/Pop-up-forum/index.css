@@ -1,6 +1,4 @@
 .adicionar{
-    position: relative;
-    left: 75%;
     border: none;
     cursor: pointer;
     padding: 0;
@@ -12,8 +10,12 @@
 }
 .crar{
     position: relative;
-    left: 300px;
+    font-weight: bold;
+    left: 270px;
     bottom: 30px;
     border: none;
     cursor: pointer;
+    background: #4BCFEC;
+    border-radius: 10px;
+    padding: 20px;
 }

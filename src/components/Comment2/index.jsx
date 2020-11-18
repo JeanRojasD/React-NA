@@ -4,7 +4,6 @@ import './index.css'
 function Pg2(props){
     return(
         <div className="caixa-de-comentarioo itemm">
-        <a href="/">
         <div className="call2">
             <div className="fotoo">
             </div>
@@ -25,7 +24,6 @@ function Pg2(props){
                 <button className="dk"><img src={props.deslike} alt="deslike"/></button>
             </div>
         </div>
-        </a>
     </div>
     )
 

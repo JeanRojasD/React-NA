@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from '../../components/Menu';
+import Header from '../../components/Header';
 import SimpleSlider from '../../components/Slider-forum'
 import Rodape from '../../components/Rodape'
 import Pg2 from '../../components/Comment2'
@@ -10,7 +10,7 @@ import Botaopop2 from '../../components/Popup2-forum';
 function Forumpag2(){
     return(
         <section>
-            <Menu/>
+            <Header/>
             <SimpleSlider/>
             <Botaopop2/>
             <Pg2 nome="Eduardo" titulo="COMENTARIO" data="10/20/10"  like={Image12} deslike={Image13} />

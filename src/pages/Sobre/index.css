@@ -1,46 +1,29 @@
+.sobre-page{
+  display: flex;
+  flex-direction: column;
+}
+
 .container{
   background-color: #C4C4C4 ;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
-  padding: 150px;
+  padding: 250px;
   justify-content: space-between;
   margin-top: 150px;
   position: relative;
 }
 
 .h1{
-text-align: center;
-font-size: 45px;
-padding-bottom: 20px;
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 20px;
 }
 
 .p{
   text-align: center;
-  text-decoration: none;
   font-size: 25px;
   line-height: 1.5em;
-  margin: 10px;
-}
-
-.fotos{
-    background-color: #EAEAEA;
-    display: flex;
-    align-items: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-
-.fotos img{
-  margin-left: 100px;
-}
-
-.fotos h1{
-  display: flex;
-  justify-self: center;
-  white-space: pre;
-  color: black;
 }
 
 #arrowla{

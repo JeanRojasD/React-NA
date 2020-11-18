@@ -1,87 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
-body{
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-}
-
-body, ul, p{
-    margin: 0px 0px 0px 0px;
-    padding: 0px;
-    list-style: none;
-    text-decoration: none;
-
-}
-
-.esquerda a{
-    font-family: 'Architects Daughter', cursive;
-    font-size: 19px;
-    color:#676767;
-}
-
-a{
-    text-decoration: none;
-}
-
-.nainfor img{
-    width: 64px;
-}
-
-.Hope{
+.menu{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    border-bottom: 5px solid #4BCFEC;
-    width: 100%;
 }
 
-.esquerda{
-    display: flex;
-    align-items: center;
-}
-
-.items{
-    display: flex;
-    padding: 20px;
-    margin-right: 300px;
-    color: black;
-}
-
-.items li{
-    margin-left: 20px;
-    display: inline-block;
-}
-
-.menustyle{
-    color: black;
-}
-
-.esquerda img {
-    margin-left: 400px;
-}
-
-.user img{
-    width: 20px;
-}
-
-.userasset{
+.menu-logo{
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 10px;
+}
+
+.menu-logo p{
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 15px;
+}
+
+.menu-logo img{
+    width: 90px;
+}
+
+.menu-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-content li{
+    padding: 10px;
+    color: black;
+    font-size: 15px;
 }
 
 .logout{
-    font-size: 15px;
-    border-radius: 5px;
-    padding-right: 20px;
     padding-left: 20px;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    transition: all 400ms ease;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 .ani{
