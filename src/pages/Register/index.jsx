@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import Menu from '../../components/Menu'
-import twitter from '../../assets/images/twitter2.png'
+import twitter from '../../assets/images/twitter.png'
 import facebook from '../../assets/images/facebook.png'
 import instagram from '../../assets/images/instagram.png'
 import linkedin from '../../assets/images/linkedin.png'
