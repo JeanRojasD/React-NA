@@ -1,66 +1,44 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    font-family: Arial;
-}
-.footer{
-    font-size: 20px;
+.footer-content{
     display: flex;
-    justify-content: space-between;
-    background-color: #C4C4C4;
-    padding-bottom: 50px;
-}
-.logo img{
-    width: 165px;
-    position: relative;
-    top: 30px;
-    left: 70px;
-}
-.itens{
-    margin-top: 30px;
-}
-.itens a{
-    display: flex;
-    align-items: flex-start;
-    color: black;
-}
-.about{
-    margin-top: 30px;
-}
-
-.contact{
-    margin-top: 30px;
-}
-
-.social{
-    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    margin-right: 25px;
-    margin-bottom: 50px;
-}
-.social img{
-    margin: 10px;
-    margin-top: 80px;
-}
-#tt{
-    width: 30px;
-}
-#yt{
-    width: 33px;
-}
-#fb{
-    width: 25px;
-}
-.copyright p{
-    line-height: 40px;
-    text-align: center;
-    bottom: 0;
-    color: black;
-    background-color: #A3A3A3;
-    font-weight: bold;
+    padding: 10px;
+    background: #C4C4C4;
+    flex-wrap: wrap;
 }
 
-.cinza{
+.footer-menu li{
+    font-size: 14px;
     color: black;
+}
+
+.footer-about{
+    font-size: 14px;
+}
+
+.footer-logo img{
+    width: 160px;
+}
+
+.footer-contacts{
+    font-size: 14px;
+}
+
+.footer-social{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-social img{
+    width: 25px;
+    margin-right: 10px;
+}
+.footer-copyright{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    background: #A3A3A3;
+    padding: 10px;
 }
