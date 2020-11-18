@@ -1,8 +1,10 @@
 .squares{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 300px;
+    font-family: Arial;
 }
 .squares a{
     margin: 10px;
@@ -16,13 +18,13 @@
     margin-top: 25px;
     margin-left: 10px;
 }
-.title{
+.square-title{
     display: flex;
     align-items: center;
     font-size: 30px;
     color: white;
 }
-.title h1{
+.square-title h1{
     font-size: 30px;
     padding-left: 10px;
     color: white;

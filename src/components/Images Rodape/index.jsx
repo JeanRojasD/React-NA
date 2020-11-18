@@ -9,26 +9,26 @@ import Eloir from '../../assets/images/Eloir.png'
 function Rodapeimg (){
 return(
 <div className="fotos">
- <div>
-     <img src={Jean} alt="Jean"/>
-     <ol>    Jean Rojas</ol> 
- </div>
- <div>
-     <img src={Gustavo} alt="Gustavo"/>
-     <ol>Gustavo Antônio</ol> 
- </div>
- <div>
-     <img src={Eduardo} alt="Eduardo"/>
-     <ol>Eduardo Azevedo</ol> 
- </div>
- <div>
-     <img src={Jao} alt="João Vitor"/>
-     <ol>      João Vitor</ol> 
- </div>
- <div>
-     <img src={Eloir} alt="João Eloir"/>
-     <ol>    João Eloir</ol> 
- </div>
+    <div className="img-align">
+        <img src={Jean} alt="Jean"/>
+        <p>Jean Rojas</p> 
+    </div>
+    <div className="img-align">
+        <img src={Gustavo} alt="Gustavo"/>
+        <p>Gustavo Antônio</p> 
+    </div>
+    <div className="img-align">
+        <img src={Eduardo} alt="Eduardo"/>
+        <p>Eduardo Azevedo</p> 
+    </div>
+    <div className="img-align">
+        <img src={Jao} alt="João Vitor"/>
+        <p>João Vitor</p> 
+    </div>
+    <div className="img-align">
+        <img src={Eloir} alt="João Eloir"/>
+        <p>João Eloir</p> 
+    </div>
 </div>
 )
 }

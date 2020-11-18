@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import Menu from '../../components/Menu';
+import Header from '../../components/Header';
 import Rodape from '../../components/Rodape';
 import Rodapeimg from '../../components/Images Rodape';
 import './index.css';
@@ -13,17 +13,17 @@ const textoss=[
   {
     id : "texto1",
     titulo : "Quem Somos",
-    content : `Ensinar Cursos Essênciais para Iniciantes ou Inexperientes em informática basica, o aprendiz estará junto com    
-    agente absorvendo tudo que é ensinado gratuitamente em nossa plataforma de estudos que foi criada para ser
-   100% online e gratuita facilitando assim o acesso á todos`
+    content : `Ensinar cursos essênciais para iniciantes ou inexperientes em informática basica, o aprendiz estará junto com    
+    a gente absorvendo tudo que é ensinado gratuitamente em nossa plataforma de estudos que foi criada para ser
+   100% online e gratuita facilitando assim o acesso à todos`
   },
   {
     id : "texto2",
     titulo : "Sobre Nós",
-    content : `Somos Estudantes Da Faculdade Uniamérica no Paraná, estamos cursando a faculdade de Engenharia De Software,
-    Criamos essa plataforma através do nosso projeto Integrador e estamos trabalhando para levar-lo além,                
-    acreditamos que muitas pessoas ainda faltam em conhecimento nessa área em específico, oque pode     
-    impactar muito em sua vida social.`
+    content : `Somos Estudantes Da Faculdade Uniamérica do Paraná. Estamos cursando a faculdade de Engenharia De Software,
+    criamos essa plataforma através do nosso projeto integrador e estamos trabalhando para leva-lo além,                
+    acreditamos que muitas pessoas ainda possuem carência em conhecimento quando o assunto é informatica, oque pode     
+    impactar muito em sua vida profissional e social.`
   }
 ];
 
@@ -35,8 +35,8 @@ const toggleText=() => {
 }
 
 return(
-  <div>
-    <Menu />
+  <div className="sobre-page">
+    <Header />
     <div className="container">
     <button onClick={toggleText} id="arrowla">
           <img src={arrowla} alt="arrowla"/>

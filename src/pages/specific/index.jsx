@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
-import Menu from '../../components/Menu';
+import Header from '../../components/Header';
 import Rodape from '../../components/Rodape';
 import Displayer from '../../components/Displayer';
 import Summary from '../../components/Summary';
-import Modal from '../../components/Modal';
 import Sqr_specifics from '../../components/Sqr_specifics';
 import wordlogo from '../../assets/images/word.png';
 
@@ -15,8 +14,8 @@ function Specific(){
     };
     const [open, setOpen] = useState(false);
     return(
-        <div>
-            <Menu />
+        <div className="specific-page">
+            <Header />
             <Summary style={divStyle} src={wordlogo} text="O Microsoft Word é um processador
                     de texto produzido pela Microsoft Office
                     foi criado por Richard Brodie para computadores

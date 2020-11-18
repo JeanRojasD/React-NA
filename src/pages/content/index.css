@@ -1,12 +1,12 @@
-body,ul,li,p{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    font-family: Arial;
+.content-page{
+    display: flex;
+    flex-direction: column;
 }
-.contentbody{
+
+.content-body{
+    font-family: Arial;
     background-color: #EAEAEA;
-    padding: 100px;
+    padding: 250px;
     display: flex;
     justify-content: center;
 }
