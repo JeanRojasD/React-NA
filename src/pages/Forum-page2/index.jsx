@@ -9,13 +9,13 @@ import Botaopop2 from '../../components/Popup2-forum';
 
 function Forumpag2(){
     return(
-        <section>
+        <div>
             <Header/>
             <SimpleSlider/>
             <Botaopop2/>
             <Pg2 nome="Eduardo" titulo="COMENTARIO" data="10/20/10"  like={Image12} deslike={Image13} />
             <Rodape/>
-        </section>
+        </div>
     )
     }
 
