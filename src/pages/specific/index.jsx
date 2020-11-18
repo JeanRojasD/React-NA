@@ -32,7 +32,6 @@ function Specific(){
                     line_3="Conteudo 3 -"
                     line_4="Conteudo 4 -"
                     line_5="Conteudo 5 -">
-                    <Modal></Modal>
                 </Displayer>
 
             )}
