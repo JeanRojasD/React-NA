@@ -1,0 +1,25 @@
+.lines{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.lines li{
+    color: black;
+    width: 1000px;
+    font-size: 20px;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 20px;
+}
+.lines{
+    position: relative;
+    animation-name: up;
+    animation-duration: 600ms;
+    animation-fill-mode: forwards;
+}
+@keyframes up{
+    from{top: -300px; opacity:0%;}
+    to{top:0px; opacity: 100%;}
+}

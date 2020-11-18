@@ -1,0 +1,51 @@
+.sumemomemo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    background-color: #C4C4C4;
+
+}
+.img1{
+    width: 100%;
+    place-items: center;
+    display: flex;
+    background: 0,0,0,0;
+    border: none;
+}
+.a{
+    margin: 0 auto;
+}
+.img2{
+    width: 100%;
+    place-items: center;
+    display: flex;
+    background: 0,0,0,0;
+    border: none;
+}
+.b{
+    margin: 0 auto;
+}
+.img3{
+    width: 100%;
+    place-items: center;
+    display: flex;
+    background: 0,0,0,0;
+    border: none;
+}
+.c{
+    margin: 0 auto;
+}
+.img4{
+    width: 100%;
+    place-items: center;
+    display: flex;
+    background: 0,0,0,0;
+    border: none;
+}
+.d{
+    margin: 0 auto;
+}

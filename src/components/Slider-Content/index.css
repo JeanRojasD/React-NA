@@ -1,7 +1,6 @@
 .Slides{
     display: flex;
     width: 785px;
-    left: 316px;
 }
 .text{
     background-color: #2A5893;
@@ -80,22 +79,21 @@
     width: 80px;
     margin-top: 10px;
 }
-.slick-dots li{
+.Slides .slick-dots li{
     transform: rotate(45deg);
     position: relative;
     top: 20px;
-    padding: 5px;
 }
-.slick-dots li button::before {
+.Slides .slick-dots li button::before {
     opacity: 1;
     text-indent: -9999px;
+    width: 20px;
+    height: 20px;
     background: #4BCFEC;
-  }
-
-.slick-dots li.slick-active button::before {
-    width: 18px;
-    height: 18px;
+}
+.Slides .slick-dots li.slick-active button::before {
     border: 2px solid white;
     background: #4BCFEC;
     opacity: 1;
+    transition: all 100ms;
 }

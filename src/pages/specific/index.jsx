@@ -1,40 +1,43 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Menu from '../../components/Menu';
 import Rodape from '../../components/Rodape';
+import Displayer from '../../components/Displayer';
+import Summary from '../../components/Summary';
+import Modal from '../../components/Modal';
+import Sqr_specifics from '../../components/Sqr_specifics';
 import wordlogo from '../../assets/images/word.png';
-import apostila from '../../assets/images/apostila.png';
-import podcast from '../../assets/images/podcast.png';
-import slides from '../../assets/images/slides.png';
-import video from '../../assets/images/video.png';
 
 import './index.css'
 
-function specific(){
+function Specific(){
+    const divStyle = {
+        backgroundColor:'#2A5893', 
+    };
+    const [open, setOpen] = useState(false);
     return(
-        <section>
+        <div>
             <Menu />
-            <section className="page">
-                <div className="logo">
-                    <img src={wordlogo} alt="wordlogo"></img>
-                </div>
-                <div className="summary">
-                    <p>O Microsoft Word é um processador
+            <Summary style={divStyle} src={wordlogo} text="O Microsoft Word é um processador
                     de texto produzido pela Microsoft Office
                     foi criado por Richard Brodie para computadores
                     IBM PC com o sistema operacional DOS em 1983.
                     Mais tarde foram criadas versões para o
                     Apple Macintosh, SCO UNIX e Microsoft Windows.
-                    Faz parte do conjunto de aplicativos Microsoft Office.</p>
-                </div>
-            </section>
-            <section className="wordsquares">
-                <a href="/"><img src={apostila} alt="apostila"></img></a>
-                <a href="/"><img src={slides} alt="slides"></img></a>
-                <a href="/"><img src={video} alt="video"></img></a>
-                <a href="/"><img src={podcast} alt="podcast"></img></a>
-            </section>
+                    Faz parte do conjunto de aplicativos Microsoft Office."/>
+            <button className="display_btn" onClick={() => setOpen(!open)}><Sqr_specifics style={divStyle}></Sqr_specifics></button>
+            {open && (
+                <Displayer
+                    line_1="Conteudo 1 -"
+                    line_2="Conteudo 2 -"
+                    line_3="Conteudo 3 -"
+                    line_4="Conteudo 4 -"
+                    line_5="Conteudo 5 -">
+                    <Modal></Modal>
+                </Displayer>
+
+            )}
             <Rodape />
-        </section>
+        </div>
     );
 }
-export default specific;
+export default Specific;

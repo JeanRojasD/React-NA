@@ -14,7 +14,7 @@ function Notfound(){
                     <h2>Pagina não encontrada</h2>
                     <p>UTILIZE O MENU ACIMA PARA NAVEGAR NOVAMENTE À NOSSAS PÁGINAS</p>
                 </div>
-                <img className="notfound-image" src={found}></img>
+                <img className="notfound-image" src={found} alt="ERROR 404"></img>
             </div>
         </div>
 

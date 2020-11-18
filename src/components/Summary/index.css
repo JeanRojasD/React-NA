@@ -1,0 +1,23 @@
+.summary-center{
+    display: flex;
+    justify-content: center;
+    background-color: #EAEAEA;
+}
+.page{
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 880px;
+    max-height: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 1px 2px 1px black;
+
+}
+.page img{
+    width: 300px;
+}
+.page p{
+    font-size: 25px;
+    color: white;
+}

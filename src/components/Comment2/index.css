@@ -1,0 +1,77 @@
+.call2{
+    display: flex;
+    flex-flow: row wrap;
+    border: 50px;
+
+}
+.fotoo{
+    background-color: white;  
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 100%;
+}
+.tituloo{
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+.dataa {
+    font-size: 10px ;
+    position: relative;
+    right: 370px;
+    top: 20px;
+}
+.itemm{
+    flex: 1;
+    margin : 5px;
+    background: #C4C4C4;
+}
+.caixa-de-comentarioo {
+    font-weight: bold;
+    position: relative;
+    animation: mymove 1s step-end;
+  }
+  .caixa-de-comentarioo{
+    margin-bottom: 100px;
+    margin-left: 325PX;
+    margin-right: 325PX;
+    padding: 10px;
+    animation-timing-function: ease;
+    align-items: center;
+}  
+  @keyframes mymove {
+    from {left: -1000px;}
+    to {left: 0px;}
+  }
+  .caixa-de-comentarioo a{
+      color: black;
+  }
+  .lk{
+      position: relative;
+      left: 10px;  
+      top: 40px;
+      cursor: pointer;
+      border: none;
+      margin: none;
+  }
+  .dk{
+      position: relative;
+      right: 140px;
+      top: 40px;
+      border: none;
+      margin: none;
+      padding: 0;
+      background: none;
+      cursor: pointer;
+  }
+  .comentarr{
+      border: none;
+      margin: none;
+      position: relative;
+      left: 400px;
+      cursor: pointer;
+      background: none;
+      padding: 0;
+      top: 5px;
+  }

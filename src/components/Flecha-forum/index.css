@@ -1,12 +1,12 @@
-body,ul,li,p{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-.display_btn{
+.botao{
     background: none;
     border: none;
     padding: 0;
     cursor: pointer;
     outline: inherit;
+    position: relative;
+}
+.botao img{
+    width: 30px;
+    position: relative;
 }
