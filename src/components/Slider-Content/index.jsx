@@ -17,6 +17,8 @@ class Slideshow extends Component{
         const settings = {
             slidesToShow: 1,
             slidesToScroll: 1,
+            autoplay:true,
+            autoplaySpeed:6000,
             infinite:true,
             dots:true,
             className:"Slides",
