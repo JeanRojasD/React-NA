@@ -1,6 +1,12 @@
 .Slides{
     display: flex;
     width: 785px;
+    animation-name: enter;
+    animation-duration: 1s;  
+}
+@keyframes enter{
+    from {top: -150px; opacity: 50%;}
+    to {top: 0px; opacity: 100%;}
 }
 .text{
     background-color: #2A5893;
@@ -81,8 +87,6 @@
 }
 .Slides .slick-dots li{
     transform: rotate(45deg);
-    position: relative;
-    top: 20px;
 }
 .Slides .slick-dots li button::before {
     opacity: 1;
@@ -90,10 +94,11 @@
     width: 20px;
     height: 20px;
     background: #4BCFEC;
+    margin: 10px;
 }
 .Slides .slick-dots li.slick-active button::before {
     border: 2px solid white;
     background: #4BCFEC;
     opacity: 1;
-    transition: all 100ms;
+    transition: all 200ms;
 }
