@@ -6,7 +6,7 @@ import './index.css'
 
 function Sqr_specifics(props){
     return(
-        <div className="squaresalign">
+        <div>
             <div className="sqrs_specs">
                 <div style={props.style}>
                     <img src={Slides}></img>
@@ -14,7 +14,7 @@ function Sqr_specifics(props){
                 </div>
                 <div style={props.style}>
                     <img src={Videos}></img>
-                    <h1>Videos</h1>
+                    <h1>Vídeos</h1>
                 </div>
                 <div style={props.style}>
                     <img src={Books}></img>

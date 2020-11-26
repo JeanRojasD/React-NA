@@ -9,8 +9,8 @@ import './index.css';
 function Sqr_content(){
     return(
         <div className="squares">
-            <Link to="/Specifics" className="sqr1">
-                    <div className="title">
+            <Link to="/word" className="sqr1">
+                    <div className="square-title">
                         <img src={wordlogo} alt="Word"></img>
                         <h1>Word</h1>
                     </div>
@@ -23,8 +23,8 @@ function Sqr_content(){
                         </ul>
                     </div>
             </Link>
-            <Link to="/Specific" className="sqr2">
-                <div className="title">
+            <Link to="/excel" className="sqr2">
+                <div className="square-title">
                     <img src={exlogo} alt="Excel"></img>
                     <h1>Excel</h1>
                 </div>
@@ -37,8 +37,8 @@ function Sqr_content(){
                     </ul>
                 </div>
             </Link>
-            <Link to="/Specific" className="sqr3">
-                <div className="title">
+            <Link to="/googledrive" className="sqr3">
+                <div className="square-title">
                     <img src={gdlogo} alt="Google Drive"></img>
                     <h1>Google Drive</h1>
                 </div>
@@ -51,8 +51,8 @@ function Sqr_content(){
                     </ul>
                 </div>
             </Link>
-            <Link to="/Specific" className="sqr4">
-                <div className="title">
+            <Link to="/powerpoint" className="sqr4">
+                <div className="square-title">
                     <img src={pplogo} alt="Power Point"></img>
                     <h1>Power Point</h1>
                 </div>
