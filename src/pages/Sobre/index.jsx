@@ -1,9 +1,10 @@
-import React,{useState} from 'react';
+import React from 'react';
 import Header from '../../components/Header';
 import Rodape from '../../components/Rodape';
 import './index.css';
 import sobre from '../../assets/images/objetivo.jpg';
 import sobretwo from '../../assets/images/sobre2.jpg';
+import Aboutslider from '../../components/Slider-about';
 
 
 function Sobre(){
@@ -37,6 +38,9 @@ return(
             </p>
           </div>
           <img src={sobretwo}></img>
+        </div>
+        <div className="about-center">
+          <Aboutslider />
         </div>
     </div>     
     <Rodape />

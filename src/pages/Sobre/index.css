@@ -6,6 +6,14 @@
   align-items: center;
 }
 
+.about-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  background-color: #212121;
+}
+
 .sobre-objetivo img{
   width: 70%;
 }
@@ -22,15 +30,15 @@
 }
 
 .sobre-text{
-  width: 40%;
+  max-width: 30%;
   padding: 20px;
 }
 
 .sobre-text h1{
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .sobre-text p{
-  font-size: 40px;
+  font-size: 30px;
 }
 
