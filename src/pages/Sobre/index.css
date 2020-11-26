@@ -4,7 +4,7 @@
   width: 100%;
 }
 .sobre-objetivo{
-  margin-top: 100px;
+  margin-top: 200px;
   display: flex;
   flex-direction: row;
   margin-bottom: 100px;
@@ -25,6 +25,7 @@
 
 .sobre-nos img{
   width: 70%;
+
 }
 
 .sobre-nos{
