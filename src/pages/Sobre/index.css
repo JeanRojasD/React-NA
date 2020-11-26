@@ -1,3 +1,8 @@
+.sobre-page{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .sobre-objetivo{
   margin-top: 100px;
   display: flex;
