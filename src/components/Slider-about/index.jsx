@@ -15,7 +15,7 @@ class Aboutslider extends Component{
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay:true,
-            autoplaySpeed: 60000,
+            autoplaySpeed: 10000,
             infinite:true,
             dots:true,
             arrows: true,
@@ -48,7 +48,7 @@ class Aboutslider extends Component{
                     <p> Cursando Engenharia de Software <br/> 
                         Aluno da Uniamérica
                     </p>
-                    <p> Lider do grupo <br />
+                    <p> Designer integral do grupo <br />
                         Um dos responsaveis pela estilização e <br /> 
                         programação das páginas web.
                     </p>
@@ -63,7 +63,7 @@ class Aboutslider extends Component{
                     <p> Cursando Engenharia de Software <br/> 
                         Aluno da Uniamérica
                     </p>
-                    <p> Lider do grupo <br />
+                    <p> Analista do forúm <br />
                         Um dos responsaveis pela estilização e <br /> 
                         programação das páginas web.
                     </p>
@@ -78,7 +78,7 @@ class Aboutslider extends Component{
                     <p> Cursando Engenharia de Software <br/> 
                         Aluno da Uniamérica
                     </p>
-                    <p> Lider do grupo <br />
+                    <p> Integrante do grupo <br />
                         Um dos responsaveis pela estilização e <br /> 
                         programação das páginas web.
                     </p>
@@ -93,7 +93,7 @@ class Aboutslider extends Component{
                     <p> Cursando Engenharia de Software <br/> 
                         Aluno da Uniamérica
                     </p>
-                    <p> Lider do grupo <br />
+                    <p> Demandante do grupo <br />
                         Um dos responsaveis pela estilização e <br /> 
                         programação das páginas web.
                     </p>
