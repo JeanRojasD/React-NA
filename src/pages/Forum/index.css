@@ -1,0 +1,21 @@
+.forum-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:#EAEAEA;
+}
+
+.forum-square{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.forum-tags{
+    margin-left: 50px;
+}
+
+.forum-posts{
+    margin-left: 310px;
+}
