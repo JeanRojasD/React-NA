@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import '../../App.css';
 import logo from '../../assets/images/logo.png';
 import { Link } from 'react-router-dom';
 
@@ -8,29 +9,35 @@ import { Link } from 'react-router-dom';
 function Menu(){
 
     return(
-        <div className="Hope">
-            <div className="esquerda">
-                <a className="nainfor" href="/"><img src={logo} alt="logo"></img></a> 
-                <a className="logo" href="/">Informatica NA</a>
+        <div className="menu">
+            <div className="menu-left">
+                <Link to="/">
+                    <div className="menu-logo">
+                        <img src={logo} alt="logo"></img>
+                        <p>Informatica NA</p>
+                    </div>
+                </Link>
             </div>
             <nav>
-                <ul className="items">
-                    <Link to="/">
-                        <li className="menustyle">Inicio</li>
-                    </Link>
-                    <Link to="/forum">
-                        <li className="menustyle">Forúm</li>
-                    </Link>
-                    <Link to="/conteudos">
-                        <li className="menustyle">Conteúdos</li>
-                    </Link>
-                    <Link to="/sobre">
-                        <li className="menustyle">Sobre</li>
-                    </Link>
-                    <Link to="/registro">
-                        <li className="menustyle"><button className="logout ani">Login</button></li>
-                    </Link>
-                </ul>
+                <div className="menu-right">
+                    <ul className="menu-content">
+                        <Link to="/">
+                            <li>Inicio</li>
+                        </Link>
+                        <Link to="/forum">
+                            <li>Forúm</li>
+                        </Link>
+                        <Link to="/conteudos">
+                            <li>Conteúdos</li>
+                        </Link>
+                        <Link className="style-link" to="/sobre">
+                            <li>Sobre</li>
+                        </Link>
+                        <Link className="style-link" to="/registro">
+                            <li><button className="logout ani">Login</button></li>
+                        </Link>
+                    </ul>
+                </div>
             </nav>
         </div>
     );

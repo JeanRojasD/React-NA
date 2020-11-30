@@ -1,0 +1,33 @@
+.summary-center{
+    display: flex;
+    justify-content: center;
+    background-color: #EAEAEA;
+    box-shadow: 0px 0px 2px black;
+    padding-top: 91px;
+    padding-bottom: 91px;
+}
+.page{
+    background-color:#2A5893 ;
+    max-width: 860px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 2px 1px black;
+    animation-name: summary-up;
+    animation-duration: 2s;  
+}
+@keyframes summary-up{
+    from {opacity: 50%;}
+    to {opacity: 100%;}
+}
+.page img{
+    width: 300px;
+}
+.page p{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+}
+.summary{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
