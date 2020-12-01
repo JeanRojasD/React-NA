@@ -1,93 +1,15 @@
-body,ul,li,p{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    font-family: Arial;
+.content-page{
+    display: flex;
+    flex-direction: column;
 }
 
-.contentbody{
-    background-color: gray;
-    padding-top: 30px;
-    margin-top: 10px;
-    padding-bottom: 60px;
-    padding-top: 40px;
-}
-.squares{
+.content-body{
+    font-family: Arial;
+    background-color: #EAEAEA;
+    padding-top: 150px;
+    padding-bottom: 150px;
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.squares a{
-    margin: 10px;
-    height: 200px;
-    width: 200px;
-}
-.squares ul{
-    color: white;
-    font-size: 20px;
-    margin-left: 10px;
-}
-.title{
-    display: flex;
-    position: relative;
-    font-size: 30px;
-    color: white;
-}
-.title h1{
-    font-size: 30px;
-    display: flex;
-    padding-left: 10px;
-position: relative;
-    top: 6px;
-    color: white;
-}
-.title2{
-    display: flex;
-    position: relative;
-    font-size: 30px;
-    color: white;
-}
-.title2 h1{
-    font-size: 30px;
-    display: flex;
-    padding-left: 10px;
-    position: relative;
-    bottom: 8px;
-    color: white;
-}
-.sqr1{
-    background-color: #2A5893;
-}
-.sqr1 img{
-    width: 80px;
-}
-.sqr1 ul{
-    margin-top: 28px;
-}
-.sqr2{
-    background-color: #207245;
-}
-.sqr2 img{
-    width: 70px;
-    margin-top: 5px;
-}
-.sqr3{
-    background-color: #ffd04c;
-}
-.sqr3 img{
-    height: 65px;
-    margin-left: 5px;
-    margin-top: 10px;
-}
-.sqr2 ul{
-    margin-top: 32px;
-}
-.sqr4{
-    background-color: #d14424;
-}
-.sqr4 img{
-    width: 75px;
-    height: 75px;
-    margin-top: 5px;
+    box-shadow: 0px 0px 2px black;
+
 }

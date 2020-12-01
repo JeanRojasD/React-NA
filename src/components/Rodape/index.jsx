@@ -1,45 +1,56 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png'
-import ttlogo from '../../assets/images/twitter.png'
-import ytlogo from '../../assets/images/youtube logo.png'
-import fblogo from '../../assets/images/facebook logo.png'
+import twitter from '../../assets/images/twitter.png'
+import facebook from '../../assets/images/facebook.png'
+import youtube from '../../assets/images/youtube.png'
+import { Link } from 'react-router-dom'
 
 import './index.css'
 
 function Rodape(){
     return(
-    <footer>
         <div className="footer">
-            <div className="logo"><img src={logo} alt="logo"></img></div>
-            <div className="itens">
-                <h3><a href="/">Inicio</a></h3>
-                <ul>
-                    <li><a href="/">Conteúdo</a></li>
-                    <li><a href="/">Fórum</a></li>
-                    <li><a href="/">Sobre</a></li>
-                </ul>
-            </div>
-            <div className="about cinza">
-                <h3>Sobre nós</h3>
-                <p>Informática NA</p>
-            </div>
-            <div className="contact cinza">
-                <ul>
+            <div className="footer-content">
+                <div className="footer-logo">
+                    <img src={logo} alt="logo"></img>
+                </div>
+                <div className="footer-menu">
+                    <ul className="footer-list">
+                        <Link to="/">
+                            <li>Inicio</li>
+                        </Link>
+                        <Link to="/forum">
+                            <li>Forúm</li>
+                        </Link>
+                        <Link to="/conteudos">
+                            <li>Conteúdos</li>
+                        </Link>
+                        <Link className="style-link" to="/sobre">
+                            <li>Sobre</li>
+                        </Link>
+                    </ul>
+                </div>
+                <div className="footer-about">
+                    <h4>Sobre Nós</h4>
+                    <p>Informatica NA</p>
+                </div>
+                <div className="footer-contacts">
                     <h3>Contato</h3>
-                    <li>(45) 999405679</li>
-                    <li>aulainformatica134656@gmail.com</li>
-                </ul>
+                    <ul>
+                        <li>(45) 999405679</li>
+                        <li>aulainformatica134656@gmail.com</li>
+                    </ul>
+                </div>
+                <div className="footer-social">
+                    <img src={facebook} alt="facebook"></img>
+                    <img src={twitter} alt="twitter"></img>
+                    <img src={youtube} alt="youtube"></img>
+                </div>
             </div>
-            <div className="social">
-                <a href="/"><img id="tt" src={ttlogo} alt="twitter"></img></a>
-                <a href="/"><img id="yt" src={ytlogo} alt="youtube"></img></a>
-                <a href="/"><img id="fb" src={fblogo} alt="facebook"></img></a>
-            </div>
+        <div className="footer-copyright">
+            <p>© Copyright - NACORP</p>
+        </div>    
         </div>
-        <div className="copyright">
-            <p>© Copyright - Informática NA</p>
-        </div>
-    </footer>
     );
 }
 

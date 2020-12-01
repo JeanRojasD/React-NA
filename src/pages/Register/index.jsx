@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
-import Menu from '../../components/Menu'
-import twitter from '../../assets/images/twitter2.png'
+import Header from '../../components/Header'
+import twitter from '../../assets/images/twitter.png'
 import facebook from '../../assets/images/facebook.png'
 import instagram from '../../assets/images/instagram.png'
 import linkedin from '../../assets/images/linkedin.png'
@@ -20,8 +20,8 @@ function Register(){
     });
 
     return(
-        <div>
-             <Menu />
+        <div className="register-page">
+             <Header />
              <section className="global">
                 <div className="cont">
                     <div className="form sign-in">

@@ -2,6 +2,8 @@
 import React from 'react'
 import Routes from './routes';
 
+console.log()
+
 function App() {
   return <Routes />;
 }

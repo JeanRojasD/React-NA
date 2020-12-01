@@ -6,15 +6,17 @@ background: #EAEAEA;
 }
 
 .blocos{
-    padding: 200px;
+    width: 350px;
+    height: 250px;
     display: flex;
     flex-direction: row;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .block1{
     background-color:rgb(132, 161, 216);
-    width: 150px;
-    height: 300px;
+    width: 190px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,8 +25,9 @@ background: #EAEAEA;
 
 .block1 img{
     width: 100px;
-    height: 90px;
-    padding-bottom: 10px;
+    border-radius: 100px;
+    height: 100px;
+    margin-top: 20px;
 }
 
 .block1 button{
@@ -55,7 +58,7 @@ background: #EAEAEA;
 }
 
 .btnend button{
-    border: 3px solid rgb(87, 85, 85);
+    border: 1.5px solid rgb(87, 85, 85);
     background-color: grey;
     padding: 2px;
     margin-right: 20px;
