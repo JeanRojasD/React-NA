@@ -10,23 +10,48 @@ import './index.css'
 
 function Specific_word(){
     const divStyle = {
-        backgroundColor:'#2A5893', 
+        background: '#2A5893',
     };
     const [open, setOpen] = useState(false);
+    const listContent = [
+        {
+            id: 1,
+            content: "Iniciante I",
+        },
+        {
+            id: 2,
+            content: "Iniciante II",
+        },
+        {
+            id: 3,
+            content: "Intermediário I",
+        },
+        {
+            id: 4,
+            content: "Intermediário II",
+        },
+        {
+            id: 5,
+            content: "Experiente I",
+        },
+    ];
+    const listId = listContent.map((postItems) =>
+        <p>{postItems.content}</p>
+    );
     return(
         <div className="specific-page">
             <Header />
             <Summary style={divStyle} src={wordlogo} text="O Microsoft Word é software um editor de textos, cartas e documentos
                     desenvolvido pela Microsoft Office, foi criado por Richard Brodie para computadores
                     em 1983. Faz parte do conjunto de aplicativos Microsoft Office."/>
-            <button className="display_btn" onClick={() => setOpen(!open)}><Sqr_specifics style={divStyle}></Sqr_specifics></button>
+            <Sqr_specifics style={divStyle} act={() => setOpen(!open)}></Sqr_specifics>
             {open && (
                 <Displayer
-                    line_1="Conteudo 1 -"
-                    line_2="Conteudo 2 -"
-                    line_3="Conteudo 3 -"
-                    line_4="Conteudo 4 -"
-                    line_5="Conteudo 5 -">
+                    line_1={listId[0]}
+                    line_2={listId[1]}
+                    line_3={listId[2]}
+                    line_4={listId[3]}
+                    line_5={listId[4]}>
                 </Displayer>
 
             )}
