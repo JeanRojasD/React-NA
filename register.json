@@ -2,19 +2,13 @@
     {
         "register": 1,
         "name":"Rogerio",
-        "last_name":"Osborn",
         "email":"Rogerio@outlook.com",
-        "password":"ro123456",
-        "birthday":"15/02/1990",
-        "gender":"Male"
+        "password":"ro123456"
     },
     {
         "register": 2,
         "name":"Maria",
-        "last_name":"Silva",
         "email":"mari_silva@outlook.com",
-        "password":"ms123456",
-        "birthday":"22/06/1980",
-        "gender":"Female"
+        "password":"ms123456"
     }
 ]    

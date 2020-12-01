@@ -5,8 +5,8 @@
     justify-content: space-between;
     align-items: center;
     background: #C4C4C4;
-    padding: 10px;
-    margin-top: 1px;
+    padding: 15px;
+    margin-top: 3px;
     flex-wrap: wrap;
 }
 
@@ -14,11 +14,13 @@
     display:flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 15px;
 }
 
 .posts-information{
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
 }
 
 .posts-text{
@@ -39,4 +41,5 @@
     display: flex;
     align-items: baseline;
     color: #6A6A6A;
+    margin-right: 20px;
 }
