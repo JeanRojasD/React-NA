@@ -17,27 +17,25 @@ return(
           <img src={sobre}></img>
           <div className="sobre-text">
             <h1>Nosso Objetivo:</h1>
-            <p> Ensinar cursos essênciais para iniciantes ou<br/>
-              inexperientes em informática basica, o aprendiz<br/>
-              estará junto com a gente absorvendo tudo que é<br/>
-              ensinado gratuitamente em nossa plataforma de<br/> 
-              estudos que foi criada para ser 100% online e<br/>
-              gratuita facilitando assim o acesso à todos.
+            <p> Ensinar cursos essênciais para iniciantes ou
+              inexperientes em informática básica, onde o aprendiz
+              por meio da plataforma online terá acesso a
+              conteúdos didáticos e dinâmicos.
+              para então disponibilizar uma experiência
+              no âmbito online à comunidade.
             </p>
           </div>
         </div>
         <div className="sobre-nos">
           <div className="sobre-text">
-            <h1>Nosso Objetivo:</h1>
-            <p> Somos Estudantes Da Faculdade Uniamérica<br/>
-               do Paraná. Estamos cursando a faculdade de<br/>
-               Engenharia De Software, criamos essa<br/>
-               plataforma através do nosso projeto integrador<br/>
-               e estamos trabalhando para leva-lo além,<br/>
-               acreditamos que muitas pessoas ainda possuem<br/>
-               carência em conhecimento quando o assunto é<br/>
-               informatica, oque pode impactar muito em<br/>
-               sua vida profissional e social.
+            <h1>Quem somos?</h1>
+            <p> Somos universitários da universidade Uniamérica do Paraná
+                cursando engenharia de software, criamos essa plataforma
+                através do projeto integrador e estamos trabalhando
+                para impusiona-la, tendo a convicção de que muitos indivíduos
+                ainda possuem carência quando o assunto é informática e
+                conhecimento digital, o que pode impactar
+               muito em sua vida profissional e social.
             </p>
           </div>
           <img src={sobretwo}></img>
