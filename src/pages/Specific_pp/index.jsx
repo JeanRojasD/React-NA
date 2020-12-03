@@ -44,7 +44,7 @@ function Specific_pp() {
             <Summary style={divStyle} src={pplogo} text="Microsoft PowerPoint é um software utilizado para 
             criação, edição e exibição de apresentações gráficas, é constantemente usado em apresentações. 
             Foi lançado em 1990 e hoje faz parte do conjunto de aplicativos Microsoft Office."/>
-            <Sqr_specifics style={divStyle} act={() => setOpen(!open)}></Sqr_specifics>
+            <Sqr_specifics style={divStyle}></Sqr_specifics>
             {open && (
                 <Displayer
                     line_1={listId[0]}

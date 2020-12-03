@@ -44,7 +44,7 @@ function Specific_excel() {
             <Summary style={divStyle} src={exlogo} text="O Microsoft Excel é software de edição de planilhas, com 
             ferramentas de cálculo e de construção de tabelas personalizadas, foi lançado para o Windows em 1985
             e faz parte do conjunto de aplicativos Microsoft Office."/>
-            <Sqr_specifics style={divStyle} act={() => setOpen(!open)}></Sqr_specifics>
+            <Sqr_specifics style={divStyle}></Sqr_specifics>
             {open && (
                 <Displayer
                     line_1={listId[0]}

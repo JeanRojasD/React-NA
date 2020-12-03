@@ -44,7 +44,7 @@ function Specific_drive() {
             <Summary style={divStyle} src={gdlogo} text="Google Drive é um serviço de armazenamento e sincronização 
             de arquivos em nuvem, permitindo armazenar arquivos através deste serviço e acedê-los
             a partir de qualquer computador ou outros dispositivos compatíveis, foi lançado pelo Google em 2012."/>
-            <Sqr_specifics style={divStyle} act={() => setOpen(!open)}></Sqr_specifics>
+            <Sqr_specifics style={divStyle}></Sqr_specifics>
             {open && (
                 <Displayer
                     line_1={listId[0]}
