@@ -4,17 +4,17 @@ import './index.css'
 import { useState } from 'react'
 
 function Forum_new(props) {
-    const [duvida,setDuvida]=useState("");
-    const [title,setTitle]=useState("");
-    function commentarSubmit(event){
+    const [duvida, setDuvida] = useState("");
+    const [title, setTitle] = useState("");
+    function commentarSubmit(event) {
         event.preventDefault();
         console.log(title);
         console.log(duvida);
     }
-    const commentTitle=(e)=>{
+    const commentTitle = (e) => {
         setTitle(e.target.value);
     }
-    const commentDuvida=(e)=>{
+    const commentDuvida = (e) => {
         setDuvida(e.target.value);
     }
     return (
@@ -25,31 +25,31 @@ function Forum_new(props) {
                 </div>
             </div>
             <div className="new-all2">
-            <form onSubmit={commentarSubmit}>              
-                <div className="new-title">
-                    <input className="new-text" type="text" placeholder="Título" value={title} onChange={commentTitle}/>
-                </div>
-                <div className="new-duvida">
-                <input className="new-text2" type="text" placeholder="Escreva sobre sua dúvida" value={duvida} onChange={commentDuvida}/> 
-                </div>
-                <div className="new-buttons">
-                    <div className="new-cat">
-                        <button>
-                            <p>
-                                Adicionar categoria
+                <form onSubmit={commentarSubmit}>
+                    <div className="new-title">
+                        <input className="new-text" type="text" placeholder="Título" value={title} onChange={commentTitle} />
+                    </div>
+                    <div className="new-duvida">
+                        <input className="new-text2" type="text" placeholder="Escreva sobre sua dúvida" value={duvida} onChange={commentDuvida} />
+                    </div>
+                    <div className="new-buttons">
+                        <div className="new-cat">
+                            <button>
+                                <p>
+                                    Adicionar categoria
                             </p>
-                            <img className="new-seta" src={Vector} alt="seta"/>
-                        </button>
-                    </div>
-                    <div className="new-cc">
-                        <div className="new-cancelar">
-                            <button>Cancelar</button>
+                                <img className="new-seta" src={Vector} alt="seta" />
+                            </button>
                         </div>
-                        <div className="new-comentar">
-                            <button type="submit" value="comentar">Comentar</button>
+                        <div className="new-cc">
+                            <div className="new-cancelar">
+                                <button>Cancelar</button>
+                            </div>
+                            <div className="new-comentar">
+                                <button type="submit" value="comentar">Comentar</button>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </form>
             </div>
         </div>
