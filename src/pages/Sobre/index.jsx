@@ -1,58 +1,52 @@
-import React,{useState} from 'react';
-import Menu from '../../components/Menu';
+import React from 'react';
+import Header from '../../components/Header';
 import Rodape from '../../components/Rodape';
-import Rodapeimg from '../../components/Images Rodape';
 import './index.css';
-import arrowca from '../../assets/images/arrowca.png';
-import arrowla from '../../assets/images/arrowla.png';
+import sobre from '../../assets/images/objetivo.jpg';
+import sobretwo from '../../assets/images/sobre2.jpg';
+import Aboutslider from '../../components/Slider-about';
 
 
 function Sobre(){
-   
-const textoss=[
-  {
-    id : "texto1",
-    titulo : "Quem Somos",
-    content : `Ensinar Cursos Essênciais para Iniciantes ou Inexperientes em informática basica, o aprendiz estará junto com    
-    agente absorvendo tudo que é ensinado gratuitamente em nossa plataforma de estudos que foi criada para ser
-   100% online e gratuita facilitando assim o acesso á todos`
-  },
-  {
-    id : "texto2",
-    titulo : "Sobre Nós",
-    content : `Somos Estudantes Da Faculdade Uniamérica no Paraná, estamos cursando a faculdade de Engenharia De Software,
-    Criamos essa plataforma através do nosso projeto Integrador e estamos trabalhando para levar-lo além,                
-    acreditamos que muitas pessoas ainda faltam em conhecimento nessa área em específico, oque pode     
-    impactar muito em sua vida social.`
-  }
-];
-
-const [currenttext,setCurrenttext] = useState(textoss[1]);
-
-const toggleText=() => {
-  const index=currenttext.id==="texto2"?0:1;
-  setCurrenttext(textoss[index])
-}
 
 return(
-  <div>
-    <Menu />
-    <div className="container">
-        <button onClick={toggleText} id="arrowla">
-          <img src={arrowla} alt="arrowla"/>
-        </button>
-        <button onClick={toggleText} id="arrowca">
-          <img src={arrowca} alt="arrowca"/>
-        </button>
-      <div>
-        <h1 className="h1">{currenttext.titulo}</h1>
-        <p className="p">{currenttext.content}</p>
-      </div>
-    </div>
-    <Rodapeimg />      
+  <div className="sobre-page">
+    <Header />
+    <div className="sobre-container">
+        <div className="sobre-objetivo">
+          <img src={sobre}></img>
+          <div className="sobre-text">
+            <h1>Nosso Objetivo:</h1>
+            <p> Ensinar cursos essênciais para iniciantes ou
+              inexperientes em informática básica, onde o aprendiz
+              por meio da plataforma online terá acesso a
+              conteúdos didáticos e dinâmicos.
+              para então disponibilizar uma experiência
+              no âmbito online à comunidade.
+            </p>
+          </div>
+        </div>
+        <div className="sobre-nos">
+          <div className="sobre-text">
+            <h1>Quem somos?</h1>
+            <p> Somos universitários da universidade Uniamérica do Paraná
+                cursando engenharia de software, criamos essa plataforma
+                através do projeto integrador e estamos trabalhando
+                para impusiona-la, tendo a convicção de que muitos indivíduos
+                ainda possuem carência quando o assunto é informática e
+                conhecimento digital, o que pode impactar
+               muito em sua vida profissional e social.
+            </p>
+          </div>
+          <img src={sobretwo}></img>
+        </div>
+        <div className="about-center">
+          <Aboutslider />
+        </div>
+    </div>     
     <Rodape />
   </div>   
-  )
+  );
 }
 export default Sobre;
 

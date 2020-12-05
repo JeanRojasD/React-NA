@@ -1,0 +1,5 @@
+.forumtags-content{
+    background: none;
+    display: flex;
+    flex-direction: column;
+}

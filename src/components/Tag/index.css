@@ -1,0 +1,16 @@
+.tag-background{
+    background: none;
+}
+.tag-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #575757;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.tag-button p{
+    font-size: 18px;
+    margin-left: 10px;
+}
