@@ -84,7 +84,7 @@ class Aboutslider extends Component{
                     </p>
                 </div>
             </div>
-            <div className="items-slider">
+            {/* <div className="items-slider">
             <div>
                     <img src={joaoeloir} alt="joaoeloir"></img>
                 </div>
@@ -98,7 +98,7 @@ class Aboutslider extends Component{
                         programação das páginas web.
                     </p>
                 </div>
-            </div>
+            </div> */}
         </Slider>
     )
     }

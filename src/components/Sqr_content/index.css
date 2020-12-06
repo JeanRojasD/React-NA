@@ -17,14 +17,12 @@
     margin: 10px;
     height: 200px;
     width: 200px;
-    box-shadow: 1px 2px 3px black;
-}
-.squares a:hover{
-    border: solid 3px white;
-    transition: all 300ms;
+    border-radius: 3px;
+    background-color: #EAEAEA;
+    box-shadow: 0px 0px 2px black;
 }
 .squares ul{
-    color: white;
+    color: black;
     font-size: 20px;
     margin-top: 25px;
     margin-left: 10px;
@@ -33,28 +31,55 @@
     display: flex;
     align-items: center;
     font-size: 30px;
-    color: white;
+    color: black;
 }
 .square-title h1{
     font-size: 30px;
     padding-left: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .squares img{
-    max-width: 70px;
-    max-height: 70px;
+    height: 60px;
     margin-left: 5px;
-    margin-top: 3px;
+    margin-top: 10px;
 }
 .sqr1{
-    background-color: #2A5893;
+    border-bottom: solid 5px #2A5893;
+}
+.sqr1:hover{
+    border: solid 3px #2A5893;
+    transition: all 300ms;
+}
+.sqr1 img{
+    filter: invert(31%) sepia(14%) saturate(2647%) hue-rotate(174deg) brightness(95%) contrast(91%);
 }
 .sqr2{
-    background-color: #207245;
+    border-bottom: solid 5px #207245;
 }
-.sqr3{
-    background-color: #ffd04c;
+.sqr2:hover{
+    border: solid 3px #207245;
+    transition: all 300ms;
+}
+.sqr2 img{
+    filter: invert(29%) sepia(95%) saturate(342%) hue-rotate(94deg) brightness(98%) contrast(89%);
 }
 .sqr4{
-    background-color: #d14424;
+    border-bottom: solid 5px #d14424;
+}
+.sqr4:hover{
+    border: solid 3px #d14424;
+    transition: all 300ms;
+}
+.sqr4 img{
+    filter: invert(35%) sepia(18%) saturate(7494%) hue-rotate(350deg) brightness(86%) contrast(88%);
+}
+.sqr3{
+    border-bottom: solid 5px #ffd04c;
+}
+.sqr3:hover{
+    border: solid 3px #ffd04c;
+    transition: all 300ms;
+}
+.sqr3 img{
+    filter: invert(92%) sepia(100%) saturate(738%) hue-rotate(319deg) brightness(99%) contrast(103%);
 }
