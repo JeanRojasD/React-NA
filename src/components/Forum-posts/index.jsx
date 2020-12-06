@@ -1,5 +1,5 @@
 import React from 'react'
-import Posts from '../../components/Posts'
+import Posts from '../Posts'
 import './index.css'
 import jean from '../../assets/images/jean.png'
 
