@@ -1,0 +1,23 @@
+[
+    {
+        "register": 1,
+        "name":"Rogerio",
+        "email":"Rogerio@outlook.com",
+        "password":"ro123456",
+        "passwordconfirm": "ro123456"
+    },
+    {
+        "register": 2,
+        "name":"Maria",
+        "email":"mari_silva@outlook.com",
+        "password":"ms123456",
+        "passwordconfirm": "ms123456"
+    },
+    {
+        "register": 3,
+        "name":"Rodrigo",
+        "email":"rodrigogames2002@gmail.com",
+        "password":"rd123456",
+        "passwordconfirm": "rd123456"
+    }
+]    
