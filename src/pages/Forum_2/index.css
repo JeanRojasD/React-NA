@@ -1,0 +1,7 @@
+.f-posi{
+    display: flex;
+    flex-direction: row;
+}
+.f-fn{
+    margin-left: 320px;
+}

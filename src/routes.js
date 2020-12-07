@@ -10,6 +10,8 @@ import Specificpp from './pages/Specific-pp';
 import Specificdrive from './pages/Specific-drive';
 import Register from './pages/Register';
 import Notfound from './pages/Notfound';
+import Forum_2 from './pages/Forum_2';
+import Page_forum_3 from './pages/Forum_3';
 
 function Routes() {
   return (
@@ -23,6 +25,8 @@ function Routes() {
           <Route path="/excel" component={Specificexcel}/>
           <Route path="/powerpoint" component={Specificpp}/>
           <Route path="/googledrive" component={Specificdrive}/>
+          <Route path="/forum_comment_new" component={Forum_2} />
+          <Route path="/forum_inside_post" component={Page_forum_3} />
           <Route path="/sobre" component={Sobre} />
           <Route path="/registro" component={Register} />
           <Route path="*" component={Notfound} />
