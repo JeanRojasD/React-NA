@@ -5,7 +5,7 @@ import Videos from '../../assets/images/videos.svg';
 import Books from '../../assets/images/books.svg';
 import './index.css'
 
-function Sqr_specifics(props){
+function Sqrspecifics(props){
     const [show,setShow] = useState(false);
     const handleShow = () => setShow(!show);
     const listContent = [
@@ -37,15 +37,15 @@ function Sqr_specifics(props){
         <div>
             <div className="sqrs_specs">
                 <div style={props.style} onClick={handleShow}>
-                    <img src={Slides}></img>
+                    <img src={Slides} alt="/"></img>
                     <h1>Slides</h1>
                 </div>
                 <div style={props.style} onClick={handleShow}>
-                    <img src={Videos}></img>
+                    <img src={Videos} alt="/"></img>
                     <h1>Vídeos</h1>
                 </div>
                 <div style={props.style} onClick={handleShow}>
-                    <img src={Books}></img>
+                    <img src={Books} alt="/"></img>
                     <h1>Apostilas</h1>
                 </div>
             </div>
@@ -78,4 +78,4 @@ function Sqr_specifics(props){
         </div>
     );
 }
-export default Sqr_specifics;
+export default Sqrspecifics;

@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Flecha from '../Flecha-content'
+import Flecha from '../Flecha-content';
 import arrowl from '../../assets/images/arrowl.png';
 import arrowr from '../../assets/images/arrowr.png';
 import wordlogo from '../../assets/images/word.png';
