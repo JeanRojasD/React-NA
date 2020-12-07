@@ -10,7 +10,7 @@ function Posts(props){
                 <div className="posts-information">
                     <h2>{props.title}</h2>
                     <div className="posts-text">
-                        <p>{props.name} .</p>
+                        <p>{props.name}</p>
                         <p className="posts-year">{props.year}</p>
                     </div>
                 </div>
