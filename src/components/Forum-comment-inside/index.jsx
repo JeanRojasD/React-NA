@@ -4,7 +4,7 @@ import {useState} from 'react'
 import Comments from '../../data/comments.json'
 
 
-function Inside_posts(props) {
+function Insideposts(props) {
     const [comentario, setComentario] = useState("");
     const [comments, setComments] = useState(Comments)
 
@@ -18,6 +18,7 @@ function Inside_posts(props) {
         event.preventDefault();
 
     }
+    
     return (
         <div className="comment-all">
             <div className="comment-part1">
@@ -44,4 +45,4 @@ function Inside_posts(props) {
     )
 }
 
-export default Inside_posts;
+export default Insideposts;

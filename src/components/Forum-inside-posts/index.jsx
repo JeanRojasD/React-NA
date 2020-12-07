@@ -1,7 +1,7 @@
 import React from "react"
 import './index.css'
 
-function Forum_inside(props) {
+function Foruminside(props) {
     return (
         <div className="inside-all">
             <div className="inside-part1">
@@ -36,4 +36,4 @@ function Forum_inside(props) {
         </div>
     )
 }
-export default Forum_inside;
+export default Foruminside;
