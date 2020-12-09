@@ -1,0 +1,22 @@
+[
+    {
+            "id": 1,
+            "content": "Iniciante I"
+    },
+    {
+            "id": 2,
+            "content": "Iniciante II"
+    },
+    {
+            "id": 3,
+            "content": "Intermediário I"
+    },
+    {
+            "id": 4,
+            "content": "Intermediário II"
+    },
+    {
+            "id": 5,
+            "content": "Experiente I"
+    }
+]

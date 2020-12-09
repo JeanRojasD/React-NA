@@ -57,7 +57,6 @@ function Sqrspecifics(props){
                     line_4={listId[3]}
                     line_5={listId[4]}>
                 </Displayer>
-
             )}
             {show && (
                 <Displayer
