@@ -14,7 +14,7 @@ return(
     <Header />
     <div className="sobre-container">
         <div className="sobre-objetivo">
-          <img src={sobre}></img>
+          <img src={sobre} alt="imagem"></img>
           <div className="sobre-text">
             <h1>Nosso Objetivo:</h1>
             <p> Ensinar cursos essênciais para iniciantes ou
@@ -38,7 +38,7 @@ return(
                muito em sua vida profissional e social.
             </p>
           </div>
-          <img src={sobretwo}></img>
+          <img src={sobretwo} alt="imagem"></img>
         </div>
         <div className="about-center">
           <Aboutslider />
