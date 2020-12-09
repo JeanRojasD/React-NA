@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Foruminside from '../../components/Forum-inside-posts'
 import Header from '../../components/Header'
 import Rodape from '../../components/Rodape'
@@ -7,8 +7,19 @@ import Tag from '../../components/Forum-tags'
 import Searchbuttons from '../../components/Forum-buttons'
 import Eduardo from '../../assets/images/eduardo.png'
 import Insideposts from '../../components/Forum-comment-inside'
+import Comments from '../../data/comments.json'
 
 function Pageforum3() {
+    
+    const [comments, setComments]=useState(Comments);
+    const addComent=(comment)=>{
+        setComments([... comments, {
+            ... comment,
+            "id": comments.length +1,
+
+        }])
+    }
+
     return (
         <div>
             <Header />
@@ -20,10 +31,10 @@ function Pageforum3() {
                 </div>
                 <div className="f-fa">
                     <div className="f-fb">
-                        <Foruminside imagem={Eduardo} titulo="Tenho uma duvida" nome="Eduardo Azevedo de Lima" tempo="há um ano atrás." />
+                        {comments.map((comment)=>{return <Foruminside comment={comment} key={comment.id} /> })}
                     </div>
                     <div className="f-fc">
-                        <Insideposts imagem={Eduardo} />
+                        <Insideposts imagem={Eduardo} sendComment={addComent} />
                     </div>
                 </div>
             </div>

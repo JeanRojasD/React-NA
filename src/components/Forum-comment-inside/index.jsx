@@ -14,7 +14,16 @@ function Insideposts(props) {
         }
         setComments([...comments,commentComentario])
         console.log(comments)
-        console.log(commentComentario)
+        console.log(commentComentario.comentario)
+        props.sendComment({
+            "id": "1",
+            "titulo":"Excel",
+            "texto": commentComentario.comentario,
+            "tempo": "20:23  12/12/2020",
+            "autor": {
+                "imagem":"",
+                "nome": "Robson"
+            }})
         event.preventDefault();
 
     }
