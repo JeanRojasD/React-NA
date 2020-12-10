@@ -1,0 +1,68 @@
+{
+        "videos":[
+                {
+                        "id": 1,
+                        "content": "Vídeos Iniciante I"
+                },
+                {
+                        "id": 2,
+                        "content": "Vídeos Iniciante II"
+                },
+                {
+                        "id": 3,
+                        "content": "Vídeos Intermediário I"
+                },
+                {
+                        "id": 4,
+                        "content": "Vídeos Intermediário II"
+                },
+                {
+                        "id": 5,
+                        "content": "Vídeos Experiente I"
+                }
+        ],
+        "slides":[
+                {
+                        "id": 1,
+                        "content": "Slides Iniciante I"
+                },
+                {
+                        "id": 2,
+                        "content": "Slides Iniciante II"
+                },
+                {
+                        "id": 3,
+                        "content": "Slides Intermediário I"
+                },
+                {
+                        "id": 4,
+                        "content": "Slides Intermediário II"
+                },
+                {
+                        "id": 5,
+                        "content": "Slides Experiente I"
+                }
+        ],
+        "apostilas":[
+                {
+                        "id": 1,
+                        "content": "Apostilas Iniciante I"
+                },
+                {
+                        "id": 2,
+                        "content": "Apostilas Iniciante II"
+                },
+                {
+                        "id": 3,
+                        "content": "Apostilas Intermediário I"
+                },
+                {
+                        "id": 4,
+                        "content": "Apostilas Intermediário II"
+                },
+                {
+                        "id": 5,
+                        "content": "Apostilas Experiente I"
+                }
+        ]
+}

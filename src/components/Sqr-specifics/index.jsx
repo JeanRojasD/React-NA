@@ -3,78 +3,42 @@ import Displayer from '../Displayer';
 import Slides from '../../assets/images/slides.svg';
 import Videos from '../../assets/images/videos.svg';
 import Books from '../../assets/images/books.svg';
+import ContentJson from '../../data/contents.json';
 import './index.css'
 
-function Sqrspecifics(props){
-    const [show,setShow] = useState(false);
-    const handleShow = () => setShow(!show);
-    const listContent = [
-        {
-            id: 1,
-            content: "Iniciante I",
-        },
-        {
-            id: 2,
-            content: "Iniciante II",
-        },
-        {
-            id: 3,
-            content: "Intermediário I",
-        },
-        {
-            id: 4,
-            content: "Intermediário II",
-        },
-        {
-            id: 5,
-            content: "Experiente I",
-        },
-    ];
-    const listId = listContent.map((postItems) =>
-        <p>{postItems.content}</p>
-    );
+function SqrSpecifics(props){
+
+    const [show, setShow] = useState();
+
+    const handleShow = (selected) => {
+        if(selected === show){
+            setShow("");
+        }else{
+            setShow(selected)
+        }
+    };
+
     return(
         <div>
             <div className="sqrs_specs">
-                <div style={props.style} onClick={handleShow}>
+                <div style={props.style} onClick={() => handleShow("slides")}>
                     <img src={Slides} alt="/"></img>
                     <h1>Slides</h1>
                 </div>
-                <div style={props.style} onClick={handleShow}>
+                <div style={props.style} onClick={() => handleShow("videos")}>
                     <img src={Videos} alt="/"></img>
                     <h1>Vídeos</h1>
                 </div>
-                <div style={props.style} onClick={handleShow}>
+                <div style={props.style} onClick={() => handleShow("apostilas")}>
                     <img src={Books} alt="/"></img>
                     <h1>Apostilas</h1>
                 </div>
             </div>
-            {show && (
-                <Displayer
-                    line_1={listId[0]}
-                    line_2={listId[1]}
-                    line_3={listId[2]}
-                    line_4={listId[3]}
-                    line_5={listId[4]}>
-                </Displayer>
-            )}
-            {show && (
-                <Displayer
-                    line_1={listId[0]}
-                    line_2={listId[1]}>
-                </Displayer>
-
-            )}
-            {show && (
-                <Displayer
-                    line_1={listId[4]}
-                    line_2={listId[3]}
-                    line_3={listId[2]}
-                    line_4={listId[1]}
-                    line_5={listId[0]}>
-                </Displayer>
-            )}
+            {show && 
+                <Displayer list={ContentJson[show]}></Displayer>
+            }
+            
         </div>
     );
 }
-export default Sqrspecifics;
+export default SqrSpecifics;
