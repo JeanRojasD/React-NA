@@ -1,66 +1,83 @@
-.geral{
+.recuperar-geral{
 display: flex;
 align-items: center;
 justify-content: center;
 background: #EAEAEA;
 }
 
-.blocos{
-    width: 350px;
-    height: 250px;
+.blocos-recuperar{
+    margin: 150px;
+    width: 800px;
+    height: 500px;
     display: flex;
     flex-direction: row;
-    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
-.block1{
-    background-color:rgb(132, 161, 216);
-    width: 190px;
-    height: 250px;
+.block1-recuperar{
+    background-image: url(../../assets/images/fundorecuperarsenha.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
 }
 
-.block1 img{
-    width: 100px;
-    border-radius: 100px;
-    height: 100px;
-    margin-top: 20px;
+.block1-recuperar img{
+    width: 130px;
+    border-radius: 130px;
+    height: 130px;
+    margin-top: 75px;
 }
 
-.block1 button{
+.block1-recuperar button{
     text-align: center;
     margin-top: 15px;
+    color: white;
+    border: 2px solid white;
+    font-size: 12px;
 }
 
-.block2{
+.block2-recuperar{
     display: flex;
     flex-direction: column;
     text-align: center;
     background:white;
+    width: 100%;
     padding: 50px;
 }
 
-.block2 input {
-    display: flex;
+.block2-recuperar input {
     border: 2px solid rgb(197, 181, 181);
+    padding: 10px;
+    margin: 5px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+.block2-recuperar button{
+    font-size: 14px;
+    padding: 2px;
+    margin-left: 80px;
+}
+
+.block2-recuperar a{
+    margin-bottom: 50px;
+    background-color: darkgray;
+    padding: 2px;
+    border-radius: 300px;
+}
+
+.btnend-recuperar{
+    display: flex;
+    justify-content: center;
+}
+
+.btnend-recuperar button{
+    margin: 25px;
     padding: 5px;
 }
 
-.block2 button{
-    padding-left: 75px;
-}
-.btnend{
-    text-align: center;
-    display: inline;
-}
 
-.btnend button{
-    border: 1.5px solid rgb(87, 85, 85);
-    background-color: grey;
-    padding: 2px;
-    margin-right: 20px;
-    margin-top: 20px;
-}
+
