@@ -46,12 +46,10 @@ function Register(){
     return(
         <div className="register-page">
              <Header />
-             <section className="global">
+             <div className="global">
                 <div className="cont">
                     <div className="form sign-in">
                         <h2>Faça seu Login!</h2>
-
-                        <form>
                             <label>
                                 <span>Email</span>
                                 <input type="email" name="email"/>
@@ -61,8 +59,6 @@ function Register(){
                                 <input type="password" name="password" />
                             </label>
                             <button className="submit">Login</button>
-                        </form>
-
                         <p className="forgot-pass">Esqueceu sua senha?</p>
                         <div className="social-media">
                             <ul>
@@ -112,7 +108,7 @@ function Register(){
                         </div>
                     </div>
                 </div>              
-            </section>
+            </div>
         </div>
     );
 }
