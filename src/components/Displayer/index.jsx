@@ -8,7 +8,7 @@ function Displayer(props) {
                 {!props.list && 
                     <li>Sem conteudos disponiveis</li>
                 }
-                {props.list.map(item => <li key={item.id} >{item.content}</li> )}
+                {props.list.map(item => <li key={item.id}>{item.content}</li> )}
             </ul>
         </div>
     );

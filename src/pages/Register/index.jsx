@@ -10,7 +10,7 @@ import './index.css'
 
 function Register(){
     
-    useEffect(()=>{
+    useEffect(function(){
         const slider=document.querySelector('.img-btn');
         if(slider){
             slider.addEventListener('click', function(){
