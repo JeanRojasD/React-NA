@@ -13,10 +13,9 @@ function Pageforum3() {
     
     const [comments, setComments]=useState(Comments);
     const addComent=(comment)=>{
-        setComments([... comments, {
-            ... comment,
+        setComments([...comments, {
+            ...comment,
             "id": comments.length +1,
-
         }])
     }
 

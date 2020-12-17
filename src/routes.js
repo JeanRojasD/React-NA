@@ -62,7 +62,7 @@ function Routes() {
           <Route path="/conteudos" component={Content} />
           <Route path="/forum" component={Forum} />
           {
-            dinamicRoutes.map(item => <Route path={item.path}><SpecificModel model={item.model}></SpecificModel></Route>
+            dinamicRoutes.map((item, m) => <Route key={m} path={item.path}><SpecificModel model={item.model}></SpecificModel></Route>
 )
           } 
           <Route path="/forum_comment_new" component={Forum_2} />
