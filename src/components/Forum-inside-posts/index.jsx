@@ -17,7 +17,7 @@ function Foruminside({comment}) {
                     <ul>
                         <li>
                            {comment.texto}
-                    </li>
+                        </li>
                     </ul>
                 </div>
                 <div className="inside-part3">

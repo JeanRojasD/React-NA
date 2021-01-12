@@ -37,7 +37,7 @@ function Forumnew(props) {
                             <button>
                                 <p>
                                     Adicionar categoria
-                            </p>
+                                </p>
                                 <img className="new-seta" src={Vector} alt="seta" />
                             </button>
                         </div>

@@ -81,7 +81,7 @@ function Register(){
                             </div>
                             <div className="img-btn">
                                 <span className="m-up">Registro</span>
-                                <span className="m-in">Login</span>
+                                <span className="m-in">Login</span> 
                             </div>
                         </div>
                         <div className="form sign-up">
