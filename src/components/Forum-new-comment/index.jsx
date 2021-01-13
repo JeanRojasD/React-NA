@@ -3,6 +3,7 @@ import Vector from '../../assets/images/vector.png'
 import './index.css'
 import { useState } from 'react'
 
+
 function Forumnew(props) {
     const [duvida, setDuvida] = useState("");
     const [title, setTitle] = useState("");
@@ -19,28 +20,31 @@ function Forumnew(props) {
     }
     return (
         <div className="new-all">
-            <div className="new-principal">
-                <div className="new-imagem">
-                    <img className="new-img" src={props.imagem} alt="imagem" />
-                </div>
-            </div>
             <div className="new-all2">
                 <form onSubmit={commentarSubmit}>
-                    <div className="new-title">
-                        <input className="new-text" type="text" placeholder="Título" value={title} onChange={commentTitle} />
-                    </div>
-                    <div className="new-duvida">
-                        <input className="new-text2" type="text" placeholder="Escreva sobre sua dúvida" value={duvida} onChange={commentDuvida} />
+                    <div className="new-all3">
+                        <div className="new-principal">
+                            <div className="new-imagem">
+                                <img className="new-img" src={props.imagem} alt="imagem" />
+                            </div>
+                        </div>
+                        <div className="new-inputs">
+                            <div className="new-title">
+                                <input className="new-text" type="text" placeholder="Título" value={title} onChange={commentTitle} />
+                            </div>
+                            <div className="new-duvida">
+                                <input className="new-text2" type="text" placeholder="Escreva sobre sua dúvida" value={duvida} onChange={commentDuvida} />
+                            </div>
+                        </div>
                     </div>
                     <div className="new-buttons">
-                        <div className="new-cat">
-                            <button>
-                                <p>
-                                    Adicionar categoria
-                                </p>
-                                <img className="new-seta" src={Vector} alt="seta" />
-                            </button>
-                        </div>
+                        <select className="new-cat">
+                            <option value="adicionarCategoria">Adicionar Categoria</option>
+                            <option value="Word">Word</option>
+                            <option value="Excel">Excel</option>
+                            <option value="PowerPoint">PowerPoint</option>
+                            <option value="adicionarCategoria">Livre</option>
+                        </select>
                         <div className="new-cc">
                             <div className="new-cancelar">
                                 <button>Cancelar</button>
