@@ -84,21 +84,16 @@ class Aboutslider extends Component{
                     </p>
                 </div>
             </div>
-            {/* <div className="items-slider">
+            <div className="items-slider">
             <div>
                     <img src={joaoeloir} alt="joaoeloir"></img>
                 </div>
                 <div className="items-text">
                     <h1>João Eloir</h1>
-                    <p> Cursando Engenharia de Software <br/> 
-                        Aluno da Uniamérica
-                    </p>
-                    <p> Demandante do grupo <br />
-                        Um dos responsaveis pela estilização e <br /> 
-                        programação das páginas web.
+                    <p> Demandante do Grupo
                     </p>
                 </div>
-            </div> */}
+            </div>
         </Slider>
     )
     }

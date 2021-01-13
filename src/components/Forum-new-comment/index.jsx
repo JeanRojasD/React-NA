@@ -3,7 +3,7 @@ import Vector from '../../assets/images/vector.png'
 import './index.css'
 import { useState } from 'react'
 
-function Forum_new(props) {
+function Forumnew(props) {
     const [duvida, setDuvida] = useState("");
     const [title, setTitle] = useState("");
     function commentarSubmit(event) {
@@ -37,7 +37,7 @@ function Forum_new(props) {
                             <button>
                                 <p>
                                     Adicionar categoria
-                            </p>
+                                </p>
                                 <img className="new-seta" src={Vector} alt="seta" />
                             </button>
                         </div>
@@ -56,4 +56,4 @@ function Forum_new(props) {
     )
 }
 
-export default Forum_new;
+export default Forumnew;

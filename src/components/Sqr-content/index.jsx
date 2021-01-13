@@ -6,7 +6,7 @@ import paste from '../../assets/images/paste.svg';
 import { Link } from 'react-router-dom';
 import './index.css';
 
-function Sqr_content(){
+function Sqrcontent(){
     return(
         <div className="squares">
             <Link to="/word" className="sqr1">
@@ -69,4 +69,4 @@ function Sqr_content(){
     );
 }
 
-export default Sqr_content;
+export default Sqrcontent;

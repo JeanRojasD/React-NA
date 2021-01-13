@@ -1,15 +1,16 @@
 import React, {useEffect} from 'react'
+import {useState} from 'react'
 import Header from '../../components/Header'
 import twitter from '../../assets/images/twitter.png'
 import facebook from '../../assets/images/facebook.png'
 import instagram from '../../assets/images/instagram.png'
 import linkedin from '../../assets/images/linkedin.png'
-import { Link } from 'react-router-dom'
+import listRegister from '../../data/register.json'
 import './index.css'
 
 function Register(){
     
-    useEffect(()=>{
+    useEffect(function(){
         const slider=document.querySelector('.img-btn');
         if(slider){
             slider.addEventListener('click', function(){
@@ -19,22 +20,45 @@ function Register(){
         
     });
 
+    const [name, setNome] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setSenha] = useState("");
+    const [passwordconfirm, setConfirm] = useState("");
+    const [register, setRegister] = useState(listRegister);
+
+    function registerSubmit(event){
+
+        const newRegister = {
+            name: name,
+            email: email,
+            password: password,
+            passwordconfirm: passwordconfirm
+        }
+
+        setRegister([...register, newRegister])
+
+        console.log(newRegister);
+        console.log(register);
+
+        event.preventDefault();
+    }
+
     return(
         <div className="register-page">
              <Header />
-             <section className="global">
+             <div className="global">
                 <div className="cont">
                     <div className="form sign-in">
                         <h2>Faça seu Login!</h2>
-                        <label>
-                            <span>Email</span>
-                            <input type="email" name="email" />
-                        </label>
-                        <label>
-                            <span>Senha</span>
-                            <input type="password" name="password" />
-                        </label>
-                        <Link to="/"><button className="submit" type="button">Login</button></Link>
+                            <label>
+                                <span>Email</span>
+                                <input type="email" name="email"/>
+                            </label>
+                            <label>
+                                <span>Senha</span>
+                                <input type="password" name="password" />
+                            </label>
+                            <button className="submit">Login</button>
                         <p className="forgot-pass">Esqueceu sua senha?</p>
                         <div className="social-media">
                             <ul>
@@ -57,32 +81,34 @@ function Register(){
                             </div>
                             <div className="img-btn">
                                 <span className="m-up">Registro</span>
-                                <span className="m-in">Login</span>
+                                <span className="m-in">Login</span> 
                             </div>
                         </div>
                         <div className="form sign-up">
                             <h2>Faça seu Registro!</h2>
-                            <label>
-                                <span>Nome</span>
-                                <input type="text" />
-                            </label>
-                            <label>
-                                <span>Email</span>
-                                <input type="email" />
-                            </label>
-                            <label>
-                                <span>Senha</span>
-                                 <input type="password" />
-                            </label>
-                            <label>
-                                <span>Confirmar Senha</span>
-                                <input type="password" />
-                            </label>
-                            <Link to="/"><button type="button" className="submit">Registro</button></Link>
+                            <form onSubmit={registerSubmit}>
+                                <label>
+                                    <span>Nome</span>
+                                    <input onChange={e => setNome(e.target.value)} type="text" value={name}/>
+                                </label>
+                                <label>
+                                    <span>Email</span>
+                                    <input onChange={e => setEmail(e.target.value)} type="email" value={email} />
+                                </label>
+                                <label>
+                                    <span>Senha</span>
+                                    <input onChange={e => setSenha(e.target.value)} type="password" value={password} />
+                                </label>
+                                <label>
+                                    <span>Confirmar Senha</span>
+                                    <input onChange={e => setConfirm(e.target.value)} type="password" value={passwordconfirm} />
+                                </label>
+                                <button className="submit" type="submit" value="Enviar">Registro</button>
+                            </form>
                         </div>
                     </div>
                 </div>              
-            </section>
+            </div>
         </div>
     );
 }

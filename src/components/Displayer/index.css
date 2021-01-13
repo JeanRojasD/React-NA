@@ -17,7 +17,8 @@
     position: relative;
     animation-name: up;
     animation-duration: 600ms;
-    animation-fill-mode: forwards;
+    animation-fill-mode: none;
+    z-index: -1;
 }
 @keyframes up{
     from{top: -300px; opacity:0%;}
